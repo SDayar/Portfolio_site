@@ -1,9 +1,3 @@
-document.querySelector("html").addEventListener("load", function(e){
-    document.querySelector("body").style.backgroundColor="white";
-    document.querySelector(".fa-light fa-dice fa-flip fa-2xl").style.display="block";
-}, false);
-
-
 
 const barre_nav = window.document.querySelector("nav");
 
