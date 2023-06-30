@@ -107,15 +107,15 @@ var  mess = window.document.querySelector("#message").value;
     }
     
   }, false);
+ const comm = window.document.querySelector("#commentaire").value;
  window.document.querySelector("#btn_envoyer_com").addEventListener("click", function(comm_event){ 
-   const comm = window.document.querySelector("#commentaire").value;
+  
     if(comm == ""){
        comm_event.preventDefault();
       alert("Saisissez le commentaire");
-  }else{
-         window.location.href="mailto:sdayar318@gmail.com?subject= Commentaire &body="+ comm+"";
-    }
+  }
  }, false );
+ window.location.href="mailto:sdayar318@gmail.com?subject= Commentaire &body="+ comm+"";
  
  
         
