@@ -55,6 +55,7 @@ document.querySelector(".btn_menu_lat").style.display="block";
 
 window.document.addEventListener("load", function(){
 window.document.querySelector("#btn_envoyer").addEventListener("click", function(event){ 
+    event.preventDefault();
 const nom = window.document.querySelector("#nom").value;
 const prenom = window.document.querySelector("#prenom").value;;
 const mail = window.document.querySelector("#mail").value;
@@ -63,6 +64,7 @@ const mess = window.document.querySelector("#message").value;
 
 
     if(nom == ""){
+        event.preventDefault();
         document.querySelector("#reponse").innerHTML= " Oups ! N'oubiez pas votre nom ";
        
     }
