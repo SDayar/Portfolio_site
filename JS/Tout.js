@@ -89,7 +89,7 @@ var mess = window.document.querySelector("#message").value;
     }
    
 }, false);
-},);
+
 window.document.querySelector("#btn_envoyer").addEventListener("click", function(){ 
 var nom = window.document.querySelector("#nom").value;
 var  prenom = window.document.querySelector("#prenom").value;;
