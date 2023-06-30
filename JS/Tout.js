@@ -29,10 +29,7 @@ else{
     larg_niveau_an.style.width="0";
     larg_niveau_an_e.style.width="0";
 }
-    if(y>=310){
-        let moi = document.querySelector(".moi");
-        moi.style.display="block";
-    }
+    
 }
 );
 //Barre lateralle//
@@ -108,13 +105,16 @@ var  mess = window.document.querySelector("#message").value;
     
   }, false);
  const comm = window.document.querySelector("#commentaire").value;
+
  window.document.querySelector("#btn_envoyer_com").addEventListener("click", function(comm_event){ 
-  comm_event.preventDefault(); 
-    if(comm == ""){
+     comm_event.preventDefault();
+     
+    if(comm === ""){
       
       alert("Saisissez le commentaire");
   }else{
          window.location.href="mailto:sdayar318@gmail.com?subject= Commentaire &body="+ comm+"";
+        
   }
  }, false );
 
