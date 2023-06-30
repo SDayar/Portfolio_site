@@ -99,10 +99,16 @@ nav .menu_deroulant{
 #meteor{
     display:none;
     background-color:blue;
-    transform:meteor infinite ease;
+    animation:meteor infinite ease;
 }
-@keyframes moi{
-    
+@keyframes meteor{
+    from{
+        transform:transitionX(0px);
+        transform:transitionY(0px);
+    }to{
+        transform:transitionX(90px);
+        transform:transitionY(90px);
+}
 }
 nav .menu_deroulant li a{
     text-decoration:none;
