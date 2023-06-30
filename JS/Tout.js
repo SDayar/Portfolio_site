@@ -58,33 +58,33 @@ document.querySelector(".btn_menu_lat").style.display="block";
     }, false);
 
 window.document.querySelector("#btn_envoyer").addEventListener("click", function(event){ 
-  
+ event.preventDefault(); 
 var  nom = window.document.querySelector("#nom").value;
 var  prenom = window.document.querySelector("#prenom").value;;
 var  mail = window.document.querySelector("#mail").value;
 var mess = window.document.querySelector("#message").value;
 
     if(nom == ""){
-        event.preventDefault();
+       
         document.querySelector("#reponse").innerHTML= " Oups ! N'oubiez pas votre nom ";
        
     }
      if(prenom ==""){
-         event.preventDefault();
+       
         document.querySelector("#reponse").innerHTML= " Oups ! Vous avez oublié votre prénom";
        
     }
      if(mail == ""){
-         event.preventDefault();
+         
         document.querySelector("#reponse").innerHTML= "Oups ! Vous avez oublié votre mail ";
        
     }
      if(mess == ""){
-         event.preventDefault();
+        
         document.querySelector("#reponse").innerHTML= " Oups ! Saisissez le message !";
     }
     if(document.querySelector("#accord").checked === false){
-        event.preventDefault();
+       
      document.querySelector("#reponse").innerHTML= " Oups ! Veuillez cochez la case ci-dessus !";   
     }
    
