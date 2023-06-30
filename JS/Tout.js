@@ -82,7 +82,7 @@ var mess = window.document.querySelector("#message").value;
     }
     if(document.querySelector("#accord").checked === false){
        
-     document.querySelector("#reponse").innerHTML= " Oups ! Veuillez cochez la case ci-dessus !";   
+     document.querySelector("#reponse").innerHTML= " Oups ! Veuillez cochez la case au-dessus !";   
     }
    
 }, false);
