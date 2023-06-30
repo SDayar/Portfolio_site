@@ -100,6 +100,7 @@ var  mess = window.document.querySelector("#message").value;
         document.querySelector("#reponse").innerHTML="";
         document.querySelector("#fleche").style.display="block";
         document.querySelector("#envoie").innerHTML="Envoyé !";
+        window.location.href="mailto:sdayar318@gmail.com@MAIL.FR?subject=Message provenant de"+ nom + prenom + " & body="+mess+"";
     }else{
          document.querySelector("#fleche").style.display="none";
          document.querySelector("#envoie").innerHTML="";
@@ -111,7 +112,9 @@ var  mess = window.document.querySelector("#message").value;
     if(comm == ""){
        comm_event.preventDefault();
       alert("Saisissez le commentaire");
-  }
+  }else{
+         window.location.href="mailto:sdayar318@gmail.com@MAIL.FR?subject=Commentaire & body="+comm+"";
+    }
  }, false );
  
  
