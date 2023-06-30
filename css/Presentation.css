@@ -99,7 +99,7 @@ nav .menu_deroulant{
 #meteor{
     display:none;
     background-color:blue;
-    animation:meteor infinite ease;
+    animation:meteor 10s infinite ease;
 }
 @keyframes meteor{
     from{
