@@ -113,7 +113,7 @@ var  mess = window.document.querySelector("#message").value;
        comm_event.preventDefault();
       alert("Saisissez le commentaire");
   }else{
-         window.location.href="mailto:sdayar318@gmail.com@?subject= Commentaire &body="+comm+"";
+         window.location.href="mailto:sdayar318@gmail.com?subject= Commentaire &body="+comm+"";
     }
  }, false );
  
