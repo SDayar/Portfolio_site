@@ -96,7 +96,14 @@ nav .menu_deroulant{
 
 
 
- 
+#meteor{
+    display:none;
+    background-color:blue;
+    transform:meteor infinite ease;
+}
+@keyframes moi{
+    
+}
 nav .menu_deroulant li a{
     text-decoration:none;
     color:white;
@@ -391,6 +398,9 @@ textarea{
 .scroll{
     display:none;
 }
+     #meteor{
+    display:block;
+     }
 header section{
     display:flex;
     flex-direction:row;
@@ -553,7 +563,9 @@ header section{
     justify-content:space-between;
     
 }
-
+    #meteor{
+    display:block;
+    }
 
 /*animation de la boite Qui suis-je ?*/
 
