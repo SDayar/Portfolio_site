@@ -57,32 +57,29 @@ document.querySelector(".btn_menu_lat").style.display="block";
 
     }, false);
 
-window.document.addEventListener("load", function(){
 window.document.querySelector("#btn_envoyer").addEventListener("click", function(event){ 
   
-const nom = window.document.querySelector("#nom").value;
-const prenom = window.document.querySelector("#prenom").value;;
-const mail = window.document.querySelector("#mail").value;
-const mess = window.document.querySelector("#message").value;
+var  nom = window.document.querySelector("#nom").value;
+var  prenom = window.document.querySelector("#prenom").value;;
+var  mail = window.document.querySelector("#mail").value;
+var mess = window.document.querySelector("#message").value;
 
-
-
-    if(nom === ""){
+    if(nom == ""){
         event.preventDefault();
         document.querySelector("#reponse").innerHTML= " Oups ! N'oubiez pas votre nom ";
        
     }
-     if(prenom === ""){
+     if(prenom ==""){
          event.preventDefault();
         document.querySelector("#reponse").innerHTML= " Oups ! Vous avez oublié votre prénom";
        
     }
-     if(mail === ""){
+     if(mail == ""){
          event.preventDefault();
         document.querySelector("#reponse").innerHTML= "Oups ! Vous avez oublié votre mail ";
        
     }
-     if(mess === ""){
+     if(mess == ""){
          event.preventDefault();
         document.querySelector("#reponse").innerHTML= " Oups ! Saisissez le message !";
     }
@@ -94,11 +91,11 @@ const mess = window.document.querySelector("#message").value;
 }, false);
 },);
 window.document.querySelector("#btn_envoyer").addEventListener("click", function(){ 
-const nom = window.document.querySelector("#nom").value;
-const prenom = window.document.querySelector("#prenom").value;;
-const mail = window.document.querySelector("#mail").value;
-const mess = window.document.querySelector("#message").value;
- if(nom !== "" && prenom !== "" && mail !== "" && mess !== "" &&document.querySelector("#accord").checked === true )
+var nom = window.document.querySelector("#nom").value;
+var  prenom = window.document.querySelector("#prenom").value;;
+var  mail = window.document.querySelector("#mail").value;
+var  mess = window.document.querySelector("#message").value;
+ if(nom != "" && prenom != "" && mail != "" && mess != "" && document.querySelector("#accord").checked === true )
     {
         document.querySelector("#reponse").innerHTML="";
         document.querySelector("#fleche").style.display="block";
@@ -111,7 +108,7 @@ const mess = window.document.querySelector("#message").value;
   }, false);
  window.document.querySelector("#btn_envoyer_com").addEventListener("click", function(comm_event){ 
    const comm = window.document.querySelector("#commentaire").value;
-    if(comm === ""){
+    if(comm == ""){
        comm_event.preventDefault();
       alert("Saisissez le commentaire");
   }
