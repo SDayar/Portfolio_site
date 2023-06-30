@@ -327,7 +327,9 @@ header section{
   display:flex;  
 }
 
-
+.formulaire article:last-child{
+    width:90%;
+}
 /*Pied de la page*/
  footer{
      width:100%;
@@ -479,7 +481,7 @@ textarea{
  }
   .formulaire article:last-child{
      
-     width: 100%;
+     width: 90%;
 }
  
 
@@ -581,7 +583,7 @@ footer textarea{
  }
    .formulaire article:last-child{
      
-     width: 100%;
+     width: 90%;
 }
 textarea{
     width: 90%;
