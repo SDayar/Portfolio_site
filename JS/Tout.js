@@ -100,7 +100,7 @@ var  mess = window.document.querySelector("#message").value;
         document.querySelector("#reponse").innerHTML="";
         document.querySelector("#fleche").style.display="block";
         document.querySelector("#envoie").innerHTML="Envoyé !";
-        window.location.href="mailto:sdayar318@gmail.com?subject=Message provenant de"+ prenom +" " + nom + " &body="+mess+"";
+        window.location.href="mailto:sdayar318@gmail.com?subject=Message provenant de "+ prenom +" " + nom + " &body="+mess+"";
     }else{
          document.querySelector("#fleche").style.display="none";
          document.querySelector("#envoie").innerHTML="";
@@ -113,7 +113,7 @@ var  mess = window.document.querySelector("#message").value;
        comm_event.preventDefault();
       alert("Saisissez le commentaire");
   }else{
-         window.location.href="mailto:sdayar318@gmail.com?subject= Commentaire &body="+comm+"";
+         window.location.href="mailto:sdayar318@gmail.com?subject= Commentaire &body="+ comm+"";
     }
  }, false );
  
