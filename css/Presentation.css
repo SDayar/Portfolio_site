@@ -190,7 +190,7 @@ margin-top: 200px;
     background-color:white;
     
     width:50%;
-    display:none;
+    
     box-shadow:3px 3px 2px gray;
     border: 5px solid white;
     border-radius:6px;
@@ -414,7 +414,7 @@ margin-top: 0px;
 } 
 .moi{
     background-color:white;
-    
+    text-align:center;
     width:100%;
     box-shadow:3px 3px 2px gray;
     border: 5px solid white;
