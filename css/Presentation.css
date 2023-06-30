@@ -433,7 +433,7 @@ margin-top: 0px;
     display:flex;
     flex-direction:column;
     justify-content:space-evenly;
-    
+    text-align:center;
     width:100%;
 }
 .option li{
@@ -576,7 +576,7 @@ header section{
     display:flex;
     flex-direction:column;
     justify-content:space-evenly;
-  
+     text-alin:center;
     width:100%;
 }
 aside {
