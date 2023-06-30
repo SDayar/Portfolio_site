@@ -29,6 +29,10 @@ else{
     larg_niveau_an.style.width="0";
     larg_niveau_an_e.style.width="0";
 }
+    if(y>=310){
+        let moi = document.querySelector(".moi");
+        moi.style.display="block";
+    }
 }
 );
 //Barre lateralle//
