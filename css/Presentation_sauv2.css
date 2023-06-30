@@ -1,0 +1,660 @@
+/* 
+    Crée le  : 19 avr. 2023, 17:19:58
+    Auteur     : sdayar
+    Description : Page css pour la présentation
+*/
+body{ 
+    margin:0px;
+    padding:0px;
+   
+}
+header{
+  background-image:url("../images/banniere.png");
+  background-repeat:no-repeat;
+  background-size:cover;
+  height:560px;
+  z-index:0;
+  width:100%;
+}
+/**Barre latérale**/
+header section{
+    display:flex;
+    position:fixed;
+    
+    width:100%;
+    
+    top:0px;
+    background-color:black;
+  }
+  header section .cont_menu_lat{
+    display:none;
+    position:absolute;
+     z-index: 3;
+     width:100%
+     
+ }
+
+  article .barrelat{
+     list-style-type: none;
+    display:flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    background-color: white;
+    animation: barrelat 1s ease;
+
+  }
+  article .barrelat li {
+    margin: 6px ;
+  }
+  article .barrelat li a{
+    text-decoration:none;
+    color:black;
+    font-family:sans-serif;
+    font-size:18px;
+  }
+  article .barrelat li::before{
+    content: ->;
+    color: black;
+
+  }
+  /*Animation de la barre latérale*/
+@keyframes barrelat{
+    from{
+        opacity: 0px;
+        transform: translateX(-8px);
+    }
+    to{
+        opacity: 1px;
+        transform: translatX(0px);
+    }
+}
+
+ header article p{
+      font-size:20px;
+      color:white;
+  }
+  .btn_menu_lat:hover{
+    cursor: pointer;
+  }
+ .nom{
+      color:white;
+      font-family:sans-serif;
+  }
+  .croix{
+    margin: 2px;
+}
+.croix:hover{
+    cursor: pointer;
+}
+/*Fin de la barre lateralle*/
+nav .menu_deroulant{
+    list-style-type: none;
+    display:flex;
+    justify-content:space-evenly;
+    margin-top:0px;
+    
+}
+
+
+
+ 
+nav .menu_deroulant li a{
+    text-decoration:none;
+    color:white;
+    font-family:fantasy;
+    font-size:22px;
+}
+/*animation pour surligner les rubriques*/
+nav .menu_deroulant li::after{
+     content:"";  
+     display:flex;
+     height:3px;
+     margin: 0 auto;
+     width:0%;
+     transition: width 1s ease-in-out;
+     background-color:white;
+}
+nav .menu_deroulant li:hover::after{
+       width:100%;
+}
+ /*Fin de l'animation*/
+ /*Barre de navigation au scroll*/
+.scroll{
+    background-color:rgba(11, 1, 30, 0.9);
+    width:100%;
+    top:0px;
+    position:fixed;
+    height:50px;
+    z-index:1;
+    animation: scroll 0.5s ease-in-out;
+    
+ }
+.scroll .menu_deroulant{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+ }
+ 
+.scroll .menu_deroulant li{
+    margin-top:0px;
+}
+@keyframes scroll{
+    from{
+        opacity:0;
+        transform:translateY(0);
+    }
+    to{
+        opacity:1px;
+        transform:translateY(1px);
+    }
+}
+ /*Fin de la barre de navigation au scroll*/
+ 
+ /*Barre de navigation "Veilles"*/
+ .sous_barre{
+   list-style-type:none;
+   display:none;
+   flex-direction: column;
+   justify-content: center;
+   position:absolute;
+   background-color: white;
+   border-radius:5px;
+   }
+ .menu_deroulant > li:hover .sous_barre{
+        display:flex;
+   }
+  .menu_deroulant li .sous_barre li a{
+    text-decoration:none;
+    font-family:sans-serif;
+    font-size:15px;  
+    color:black;
+   }
+   .sous_barre li:before{
+       content: '- ';
+   }
+
+ /*Premier bloc*/
+ #premieresec{
+      
+       width:100%;
+       height:432px;
+       margin-top:100px;
+       display:flex;
+       
+       
+} 
+/*Conteneur de la boite moi*/
+.boitemoi{
+margin-top: 200px;
+}
+.moi{
+    background-color:white;
+    
+    width:50%;
+    
+    box-shadow:3px 3px 2px gray;
+    border: 5px solid white;
+    border-radius:6px;
+    animation:moi 1s linear;
+    
+}
+
+/*animation de la boite Qui suis-je ?*/
+@keyframes moi{
+from{
+    opacity:0;
+    transform:translate(0);
+}
+to{
+    opacity:1;
+    transform:translateY(-20px); 
+    }
+}
+  
+article img{
+    border:1px solid white;
+    border-radius:80px 80px 80px 80px;
+    width:11%;
+    margin-top:27px;
+}
+.matiere{
+        list-style-type: none;
+        text-align: left;
+}
+.matiere li::before{
+        content:">";
+        width:20px;
+        color:black;
+
+}
+/*Fin du premier bloc*/
+/*Deuxième section de la page*/
+.infoderoulant{
+    background-color:white;
+    width:100%;
+    margin-top:100px;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+    
+    width:100%;
+}
+aside {
+  border:1px solid white;
+  box-shadow: 2px 2px 5px gray;
+  box-sizing:content-box;
+  width:30%;
+  margin-top: 30px;
+  
+  
+}
+
+.option{
+    list-style-type:none;
+
+}
+.option li{
+    color: darkblue;
+}
+.diderot h4::first-letter{
+    color:darkred;
+    font-family:sans-serif;
+    font-size: 33px;
+}
+h4{
+    font-size:28px;
+    margin-left:9px;
+    text-decoration:underline dotted darkred;
+    font-family: sans-serif;
+}
+.rouge{
+    color:darkred;
+    font-size:33px;
+    font-family:sans-serif;
+}
+.source h4{
+    font-family:fantasy;
+}
+.source h4::first-letter{
+    font-size:33px;
+    color:darkred;
+}
+.milieusource{
+  color:darkred;
+  font-family:sans-serif;
+}
+/*Animation de aside : le faire avec javascript: https://developer.mozilla.org/fr/docs/Web/CSS/CSS_Animations/Using_CSS_animations#utiliser_plusieurs_valeurs_pour_diff%C3%A9rentes_animations*/
+
+.photodiderot{
+    width:100%;
+    height:200px;
+    border: 1px solid white;
+    margin-top:-22px;
+    }
+.photodiderot img{
+    width:100%;
+    transition:width 1s ease-in-out;
+    background-color:transparent;
+}
+.photodiderot img:hover{
+   width:90%;
+   cursor:zoom-out;
+   }
+ /*animationn de la photo de  onisep
+ul li img{
+    margin-top:5px;
+    width:300px;
+    transition:width 1s ease-in-out;
+    background-color:transparent;
+}
+ul li img:hover{
+   width:250px;
+   cursor:zoom-out;
+   }
+ */
+ /*Pied de la page*/
+ footer{
+     width:100%;
+     margin-top:20px;
+     background-color:rgba(24, 13, 49, 1);
+     
+     position:relative;
+
+     bottom: 0px;
+     display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+ }
+footer section{
+     height:300px;
+}
+footer section h3{
+     
+      color:white;
+      font-family:sans-serif;
+ }
+ .liens{
+     width:100%;
+     display:flex;
+     flex-direction:row;
+     justify-content:space-evenly;
+ }
+ input[type=submit]{
+     height:30px;
+     border:1px solid white;
+     border-radius:5px;
+     color:black;
+     font-family:sans-serif;
+     font-size:17px;
+     width:60%;
+     transition:width 1s ease-in-out;
+}
+input[type=submit]:hover{
+      width:100%;
+}
+textarea{
+       width:97%;
+       height:50px;
+ }
+ /*Partie responsive pour un smartphone de taille standard*/ 
+ @media only screen and (max-device-width: 480px) {
+     body{
+         display:flex;
+         flex-direction:column;
+         justify-content:space-between;
+         align-content: center;
+         flex-wrap: wrap;
+         flex:300px;
+     }
+     
+     header{
+         background-image:none;
+         height:130px;
+         background-color:black;
+         } 
+         header h1{
+       visibility: hidden;
+         }
+     nav .menu_deroulant{
+    list-style-type: none;
+    display:none;
+    flex-direction:column;
+    justify-content:space-evenly;
+    margin-top:3px;
+    background-color: red;
+    }
+    nav .menu_deroulant li a{
+    text-decoration:none;
+    color:darkblue;
+    font-family:fantasy;
+    font-size:22px;
+    
+}
+.scroll{
+    display:none;
+}
+header section{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    
+}
+.btn_menu_lat:active .menu_deroulant{
+  display:flex;  
+}
+
+/*animation de la boite Qui suis-je ?*/
+#premieresec{
+      
+       width:100%;
+       height:432px;
+       margin-top:13px;
+}
+/*conteneur de la boite moi*/
+.boitemoi{
+margin-top: 0px;
+} 
+.moi{
+    background-color:white;
+    
+    width:100%;
+    box-shadow:3px 3px 2px gray;
+    border: 5px solid white;
+    border-radius:6px;
+    margin-left:0px;
+    animation:moi 2s ease-out;
+}
+/*Fin*/
+/*Deuxième section de la page*/
+
+.infoderoulant{
+    background-color:white;
+    width:100%;
+    margin-top:10px;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-evenly;
+    
+    width:100%;
+}
+.option li{
+    color: darkblue;
+}
+aside {
+  border:1px solid white;
+  box-shadow: 2px 2px 5px gray;
+  box-sizing:content-box;
+  width: 100%;
+ 
+  
+}
+.photodiderot img{
+    display:none;
+    width:100%;
+    transition:width 1s ease-in-out;
+    background-color:transparent;
+}
+.photodiderot{
+    display: none;
+   
+    height:0px;
+    border: 1px solid white;
+    margin-top:0;
+    }
+/*Pied de la page*/
+ footer{
+     width:100%;
+     margin-top:20px;
+     background-color:rgba(24, 13, 49, 1);
+     text-align: center;
+    
+   z-index: 1;
+     margin-bottom: 0px;
+     display:flex;
+    flex-direction: column-reverse;
+    justify-content:space-around;
+ }
+ footer section{
+    text-align: center;
+ }
+footer section h3{
+     
+      color:white;
+      font-family:sans-serif;
+ }
+ .liens{
+     width:100%;
+     display:flex;
+     flex-direction:row;
+     justify-content:space-evenly;
+ }
+ input[type=submit]{
+     height:30px;
+     border:1px solid white;
+     border-radius:5px;
+     color:black;
+     font-family:sans-serif;
+     font-size:17px;
+     width:80%;
+     transition:width 1s ease-in-out;
+     margin-top: 3px;
+}
+input[type=submit]:hover{
+      width:100%;
+}
+textarea{
+    
+       width:100%;
+       height:100px;
+ }
+
+
+}
+@media only screen and (max-device-width: 780px) and (min-device-width: 480px) {
+     body{
+         display:flex;
+         flex-direction:column;
+         justify-content:space-between;
+         align-content: center;
+         flex-wrap: wrap;
+         flex:300px;
+     }
+header{
+background-image:none;
+height:200px;
+
+         } 
+          header h1{
+           visibility: hidden;
+         }
+nav .menu_deroulant{
+list-style-type: none;
+display:none;
+flex-direction:column;
+justify-content:space-evenly;
+margin-top:3px;
+background-color: red;
+}
+ nav .menu_deroulant li a{
+text-decoration:none;
+color:darkblue;
+ font-family:fantasy;
+ font-size:22px;
+    
+}
+.scroll{
+    display:none;
+}
+.boitemoi{
+    margin-top: 0px;
+}
+header section{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    
+}
+.btn_menu_lat:active .menu_deroulant{
+  display:flex;  
+}
+
+/*animation de la boite Qui suis-je ?*/
+
+.moi{
+    background-color:white;
+  
+    width:100%;
+    box-shadow:3px 3px 2px gray;
+    border: 5px solid white;
+    border-radius:6px;
+   
+    animation:moi 2s ease-out;
+}
+/*Fin*/
+/*Deuxième section de la page*/
+.infoderoulant{
+    background-color:white;
+    width:100%;
+    margin-top:10px;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-evenly;
+  
+    width:100%;
+}
+aside {
+  border:1px solid white;
+  box-shadow: 2px 2px 5px gray;
+  box-sizing:content-box;
+  width:100%;
+  
+  
+}
+.option li{
+    color: darkblue;
+}
+.photodiderot img{
+    display: none;
+    width:70%;
+    transition:width 1s ease-in-out;
+    background-color:transparent;
+}
+.photodiderot{
+    width: 75%;
+    height:0px;
+    border: 1px solid white;
+    margin-top:0;
+    }
+/*Pied de la page*/
+ footer{
+    width:100%;
+    margin-top:20px;
+    background-color:rgba(24, 13, 49, 1);
+    margin-bottom: 0px;
+    display:flex;
+    flex-direction:column-reverse;
+    justify-content:space-evenly;
+    text-align: center;
+     z-index: 1;
+
+ }
+footer section{
+     height:300px;
+}
+footer section h3{
+     
+      color:white;
+      font-family:sans-serif;
+ }
+ .liens{
+     width:100%;
+     display:flex;
+     flex-direction:row;
+     justify-content:space-evenly;
+ }
+ input[type=submit]{
+     height:30px;
+     border:1px solid white;
+     border-radius:5px;
+     color:black;
+     font-family:sans-serif;
+     font-size:17px;
+     width:80%;
+     transition:width 1s ease-in-out;
+}
+input[type=submit]:hover{
+      width:100%;
+}
+textarea{
+    
+       width:100%;
+       height:100px;
+ }
+}
+ 
+ 
+
+
+
+
+

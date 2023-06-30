@@ -1,0 +1,972 @@
+
+/* 
+    Created on : 18 mai 2023, 12:31:21;
+    Author     : sdayar;
+desription: fichier css de la page projets.html;
+*/
+body{
+    margin:0px;
+    padding:0px;
+}
+header{
+  background-image:url("../images/banniere.png");
+  background-repeat:no-repeat;
+  background-size:cover;
+  height:250px;
+}
+/*Barre latérale*/
+header section{
+    display:none;
+    position:fixed;
+    
+    width:100%;
+    
+    top:0px;
+    background-color:black;
+  }
+  header section .cont_menu_lat{
+    display:none;
+    position:absolute;
+     z-index: 3;
+     width:100%
+     
+ }
+
+  article .barrelat{
+     list-style-type: none;
+    display:flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    background-color: white;
+    animation: barrelat 1s ease;
+
+  }
+  article .barrelat li {
+    margin: 6px ;
+  }
+  article .barrelat li a{
+    text-decoration:none;
+    color:black;
+    font-family:sans-serif;
+    font-size:18px;
+  }
+  article .barrelat li::before{
+    content: ->;
+    color: black;
+
+  }
+  /*Animation de la barre latérale*/
+@keyframes barrelat{
+    from{
+        opacity: 0px;
+        transform: translateX(-8px);
+    }
+    to{
+        opacity: 1px;
+        transform: translatX(0px);
+    }
+}
+
+ header article p{
+      font-size:20px;
+      color:white;
+  }
+  .btn_menu_lat:hover{
+    cursor: pointer;
+  }
+ .nom{
+      color:white;
+      font-family:sans-serif;
+  }
+  .croix{
+    margin: 2px;
+}
+.croix:hover{
+    cursor: pointer;
+}
+/*Fin de la barre lateralle*/
+nav .menu_deroulant{
+    list-style-type: none;
+    display:flex;
+    justify-content:space-evenly;
+    margin-top:0px;
+    
+}
+nav .menu_deroulant li a{
+    text-decoration:none;
+    color:white;
+    font-family:fantasy;
+    font-size:22px;
+}
+/*animation pour surligner les rubriques*/
+nav .menu_deroulant li::after{
+     content:"";  
+     display:flex;
+     height:3px;
+     margin: 0 auto;
+     width:0%;
+     transition: width 1s ease-in-out;
+     background-color:white;
+}
+nav .menu_deroulant li:hover::after{
+       width:100%;
+}
+ /*Fin de l'animation*/
+ /*Barre de navigation au scroll*/
+.scroll{
+    background-color:rgba(11, 1, 30, 0.9);
+    width:100%;
+    top:0px;
+    position:fixed;
+    height:50px;
+    
+ }
+.scroll .menu_deroulant{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+ }
+ 
+.scroll .menu_deroulant li{
+    margin-top:0px;
+}
+#menu{
+    font-family:italic;
+    color:darkblue;
+    font-size:19px;
+}
+ /*Fin de la barre de navigation au scroll*/
+ 
+ /*Barre de navigation "Veilles"*/
+ .sous_barre{
+   list-style-type:none;
+   display:none;
+   flex-direction: column;
+   justify-content: center;
+   position:absolute;
+   background-color: white;
+   border-radius:5px;
+   }
+ .menu_deroulant > li:hover .sous_barre{
+        display:flex;
+   }
+  .menu_deroulant li .sous_barre li a{
+    text-decoration:none;
+    font-family:sans-serif;
+    font-size:15px;  
+    color:black;
+   }
+   .sous_barre li:before{
+    content: '- ';
+   }
+ /*Premier bloc*/
+ .titre{
+    margin-top:90px;
+    width:30%;
+    height:100px;
+ }
+ .titre article{
+     width:100%;
+     background-color:transparent;
+     height:100%;
+     display:flex;
+     flex-direction:column;
+     justify-content:center;
+     border-left:2px solid gray;
+  }
+ /*Fin du bloc titre*/
+ /*Début du projet Nolark*/
+ .projet_nolark{
+     margin-top:150px;
+     display:flex;
+     flex-direction:row;
+     justify-content:space-between;
+     width:90%;
+     background-color:lavender;
+     border-radius:8px;
+ }
+ .projet_nolark article{
+     width:50%;
+ }
+ .projet_nolark article ul{
+     list-style-type: none;
+     width:90%;
+}
+.projet_nolark article ul li{
+     font-size:19px;
+     font-family:serif;
+     float:left;
+    }
+.projet_nolark article:first-child{
+     border-right:2px solid gray;
+ }
+/*PPE*/
+.projet_ppe{
+     margin-top:150px;
+     display:flex;
+     flex-direction:row;
+     justify-content:space-between;
+     width:90%;
+     border-radius:8px;  
+}
+.projet_ppe article{
+     width:50%;
+ }
+.projet_ppe article:first-child{
+     border-right:2px solid gray;
+ }
+.projet_ppe article ul{
+     list-style-type: none;
+     width:100%;
+ }
+.projet_ppe article ul li{
+     font-size:19px;
+     font-family:serif;
+     float:left;
+     
+ }
+ /*Projet Jeu du nombre caché*/
+ .projet_jeu_nbr{
+     margin-top:150px;
+     display:flex;
+     flex-direction:row;
+     justify-content:space-between;
+     width:90%;
+     background-color:lavender;
+     border-radius:8px;
+ }
+ .projet_jeu_nbr article{
+     width:50%;
+ }
+ .projet_jeu_nbr article ul{
+     float:left;
+     list-style-type: none;
+     width:40%;
+}
+.projet_jeu_nbr article ul li{
+     font-size:19px;
+     font-family:serif;
+     float:left;
+    }
+.projet_jeu_nbr article:first-child{
+     border-right:2px solid gray;
+ }
+ /*Projet réseau*/
+.projet_reseau{
+   margin-top:150px;
+     display:flex;
+     flex-direction:row;
+     justify-content:space-between;
+     width:90%;
+     background-color:transparent;
+     border-radius:8px;  
+ }
+.projet_reseau  article{
+     width:50%;
+ }
+.projet_reseau article ul{
+     float:left;
+     list-style-type: none;
+     width:50%;
+}
+.projet_reseau article ul li{
+     font-size:19px;
+     font-family:serif;
+     float:left;
+    }
+.projet_reseau article:first-child{
+     border-right:2px solid gray;
+ }
+ /*Projet C#*/ 
+ .projet_c{
+   margin-top:150px;
+     display:flex;
+     flex-direction:row;
+     justify-content:space-between;
+     width:90%;
+     background-color:lavender;
+     border-radius:8px;  
+ }
+.projet_c article{
+     width:50%;
+ }
+.projet_c article ul{
+     float:left;
+     list-style-type: none;
+     width:50%;
+}
+.projet_c article ul li{
+     font-size:19px;
+     font-family:serif;
+     float:left;
+    }
+.projet_c article:first-child{
+     border-right:2px solid gray;
+ }
+ /*Projet de Cybersécurité*/ 
+  .projet_cyb{
+     margin-top:150px;
+     display:flex;
+     flex-direction:row;
+     justify-content:space-between;
+     width:90%;
+     background-color:transparent;
+     border-radius:8px;  
+ }
+.projet_cyb article{
+     width:50%;
+ }
+.projet_cyb article ul{
+     float:left;
+     list-style-type: none;
+     width:65%;
+    }
+.projet_cyb article ul li{
+     font-size:19px;
+     font-family:serif;
+     float:left;
+    }
+.projet_cyb article:first-child{
+     border-right:2px solid gray;
+ }
+ 
+ /*Pied de la page*/
+ footer{
+     width:100%;
+     margin-top:150px;
+     background-color:rgba(24, 13, 49, 1);
+     margin-bottom:0px;
+   text-align: center;
+    
+    
+     margin-bottom: 0px;
+     display:flex;
+    flex-direction: column-reverse;
+    justify-content:space-around
+ }
+footer section{
+     height:300px;
+}
+footer section h3{
+     
+      color:white;
+      font-family:sans-serif;
+ }
+ .liens{
+     width:100%;
+     display:flex;
+     flex-direction:row;
+     justify-content:space-evenly;
+ }
+ input[type=submit]{
+     height:30px;
+     border:1px solid white;
+     border-radius:5px;
+     color:black;
+     font-family:sans-serif;
+     font-size:17px;
+     width:60%;
+     transition:width 1s ease-in-out;
+}
+input[type=submit]:hover{
+      width:100%;
+}
+textarea{
+       width:97%;
+       height:50px;
+ }
+  /*Partie responsive pour un smartphone de taille standard*/ 
+ @media only screen and (max-device-width:480px) {
+     body{
+         display:flex;
+         flex-direction: column;
+         justify-content: space-evenly;
+          flex-wrap: wrap;
+         flex:300px;
+     }
+     header{
+         background-image:none;
+         height:130px;
+         } 
+     nav .menu_deroulant{
+    list-style-type: none;
+    display:none;
+    flex-direction:column;
+    justify-content:space-evenly;
+    margin-top:3px;
+    background-color: red;
+    }
+    nav .menu_deroulant li a{
+    text-decoration:none;
+    color:darkblue;
+    font-family:fantasy;
+    font-size:22px;
+    
+}
+.scroll{
+    display:none;
+}
+header section{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;    
+}
+.btn_menu_lat:active .menu_deroulant{
+  display:flex;  
+}
+
+/*animation de la boite Qui suis-je ?*/
+.premieresec{
+      
+       width:100%;
+       height:432px;
+       margin-top:13px;
+} 
+.moi{
+    background-color:white;
+    height:422px;
+    width:100%;
+    box-shadow:3px 3px 2px gray;
+    border: 5px solid white;
+    border-radius:6px;
+    margin-left:0px;
+    animation:moi 2s ease-out;
+}
+/*Fin*/
+/*Deuxième section de la page*/
+.infoderoulant{
+    background-color:white;
+    width:100%;
+    margin-top:130px;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-evenly;
+    height:610px;
+    width:100%;
+}
+aside {
+  border:1px solid white;
+  box-shadow: 2px 2px 5px gray;
+  box-sizing:content-box;
+  width:100%;
+  height:610px;
+  
+}
+.photodiderot img{
+    display:none;
+    width:100%;
+    transition:width 1s ease-in-out;
+    background-color:transparent;
+}
+.photodiderot{
+    width:100%;
+    height:0px;
+    border: 1px solid white;
+    margin-top:0;
+    }
+/*Pied de la page*/
+ footer{
+     width:100%;
+     margin-top:400px;
+     background-color:rgba(24, 13, 49, 1);
+     margin-bottom:0px;
+     height:auto;
+     display:flex;
+     flex-direction:column;
+    justify-content:start;
+ }
+footer section{
+     height:300px;
+}
+footer section h3{
+     
+      color:white;
+      font-family:sans-serif;
+ }
+ .liens{
+     width:100%;
+     display:flex;
+     flex-direction:row;
+     justify-content:space-evenly;
+ }
+ input[type=submit]{
+     height:30px;
+     border:1px solid white;
+     border-radius:5px;
+     color:black;
+     font-family:sans-serif;
+     font-size:17px;
+     width:80%;
+     transition:width 1s ease-in-out;
+}
+input[type=submit]:hover{
+      width:100%;
+}
+textarea{
+    
+       width:100%;
+       height:80px;
+ }
+ object{
+     width:100%;
+ }
+ /*Début du projet Nolark*/
+ .projet_nolark{
+     margin-top:150px;
+     display:flex;
+     flex-direction:column;
+     justify-content:center;
+     align-content: center;
+     width:95%;
+     background-color:lavender;
+     border-radius:8px;
+ }
+ .projet_nolark article{
+     width:100%;
+ }
+ .projet_nolark article ul{
+     list-style-type: none;
+     width:90%;
+}
+.projet_nolark article ul li{
+     font-size:19px;
+     font-family:serif;
+     float:left;
+    }
+.projet_nolark article:first-child{
+     border-right:2px solid gray;
+ }
+ /*PPE*/
+.projet_ppe{
+     margin-top:150px;
+     display:flex;
+     flex-direction:column;
+     justify-content:center;
+     align-content: center;
+     width:95%;
+     border-radius:8px;  
+}
+.projet_ppe article{
+     width:100%;
+ }
+.projet_ppe article:first-child{
+     border-right:2px solid gray;
+ }
+.projet_ppe article ul{
+     list-style-type: none;
+     width:100%;
+ }
+.projet_ppe article ul li{
+     font-size:19px;
+     font-family:serif;
+     float:left;
+     
+ }
+  /*Projet Jeu du nombre caché*/
+ .projet_jeu_nbr{
+     margin-top:150px;
+     display:flex;
+     flex-direction:column;
+     justify-content:center;
+     width:95%;
+     background-color:lavender;
+     border-radius:8px;
+ }
+ .projet_jeu_nbr article{
+     width:100%;
+ }
+ .projet_jeu_nbr article ul{
+     float:left;
+     list-style-type: none;
+     width:40%;
+}
+.projet_jeu_nbr article ul li{
+     font-size:19px;
+     font-family:serif;
+     float:left;
+    }
+.projet_jeu_nbr article:first-child{
+     border-right:2px solid gray;
+ }
+  /*Projet réseau*/
+.projet_reseau{
+   margin-top:150px;
+     display:flex;
+     flex-direction:column;
+     justify-content:center;
+     align-content: center;
+     width:95%;
+     background-color:transparent;
+     border-radius:8px;  
+ }
+.projet_reseau  article{
+     width:100%;
+ }
+.projet_reseau article ul{
+     float:left;
+     list-style-type: none;
+     width:50%;
+}
+.projet_reseau article ul li{
+     font-size:19px;
+     font-family:serif;
+     float:left;
+    }
+.projet_reseau article:first-child{
+     border-right:2px solid gray;
+ }
+ /*Projet C#*/ 
+ .projet_c{
+   margin-top:150px;
+     display:flex;
+     flex-direction:column;
+     justify-content:center;
+     align-content: center;
+     width:95%;
+     background-color:lavender;
+     border-radius:8px;  
+ }
+.projet_c article{
+     width:100%;
+ }
+.projet_c article ul{
+     float:left;
+     list-style-type: none;
+     width:50%;
+}
+.projet_c article ul li{
+     font-size:19px;
+     font-family:serif;
+     float:left;
+    }
+.projet_c article:first-child{
+     border-right:2px solid gray;
+ }
+  /*Projet de Cybersécurité*/ 
+  .projet_cyb{
+     margin-top:150px;
+     display:flex;
+     flex-direction:column;
+     justify-content:center;
+     align-content: center;
+     width:95%;
+     background-color:transparent;
+     border-radius:8px;  
+ }
+.projet_cyb article{
+     width:100%;
+ }
+.projet_cyb article ul{
+     float:left;
+     list-style-type: none;
+     width:65%;
+    }
+.projet_cyb article ul li{
+     font-size:19px;
+     font-family:serif;
+     float:left;
+    }
+.projet_cyb article:first-child{
+     border-right:2px solid gray;
+ }
+
+}
+ @media only screen and (max-device-width:780px) and (min-device-width:480px) {
+     body{
+         display:flex;
+         flex-direction: column;
+         justify-content: space-evenly;
+          flex-wrap: wrap;
+         flex:300px;
+     }
+     header{
+         background-image:none;
+         height:130px;
+         } 
+     nav .menu_deroulant{
+    list-style-type: none;
+    display:none;
+    flex-direction:column;
+    justify-content:space-evenly;
+    margin-top:3px;
+    background-color: red;
+    }
+    nav .menu_deroulant li a{
+    text-decoration:none;
+    color:darkblue;
+    font-family:fantasy;
+    font-size:22px;
+    
+}
+.scroll{
+    display:none;
+}
+header section{
+    display:flex;
+    flex-direction: row;
+    justify-content:space-between ;
+
+}
+.btn_menu_lat:active .menu_deroulant{
+  display:flex;  
+}
+
+/*animation de la boite Qui suis-je ?*/
+.premieresec{
+      
+       width:100%;
+       height:432px;
+       margin-top:13px;
+} 
+.moi{
+    background-color:white;
+    height:422px;
+    width:100%;
+    box-shadow:3px 3px 2px gray;
+    border: 5px solid white;
+    border-radius:6px;
+    margin-left:0px;
+    animation:moi 2s ease-out;
+}
+/*Fin*/
+/*Deuxième section de la page*/
+.infoderoulant{
+    background-color:white;
+    width:100%;
+    margin-top:130px;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-evenly;
+    height:610px;
+    width:100%;
+}
+aside {
+  border:1px solid white;
+  box-shadow: 2px 2px 5px gray;
+  box-sizing:content-box;
+  width:100%;
+  height:610px;
+  
+}
+.photodiderot img{
+    display:none;
+    width:100%;
+    transition:width 1s ease-in-out;
+    background-color:transparent;
+}
+.photodiderot{
+    width:100%;
+    height:0px;
+    border: 1px solid white;
+    margin-top:0;
+    }
+/*Pied de la page*/
+ footer{
+     width:100%;
+     margin-top:400px;
+     background-color:rgba(24, 13, 49, 1);
+     margin-bottom:0px;
+     text-align: center;
+    
+    
+     margin-bottom: 0px;
+     display:flex;
+    flex-direction: column-reverse;
+    justify-content:space-around
+ }
+footer section{
+     height:300px;
+}
+footer section h3{
+     
+      color:white;
+      font-family:sans-serif;
+ }
+ .liens{
+     width:100%;
+     display:flex;
+     flex-direction:row;
+     justify-content:space-evenly;
+ }
+ input[type=submit]{
+     height:30px;
+     border:1px solid white;
+     border-radius:5px;
+     color:black;
+     font-family:sans-serif;
+     font-size:17px;
+     width:80%;
+     transition:width 1s ease-in-out;
+}
+input[type=submit]:hover{
+      width:100%;
+}
+textarea{
+    
+       width:100%;
+       height:80px;
+ }
+ object{
+     width:100%;
+ }
+ /*Début du projet Nolark*/
+ .projet_nolark{
+     margin-top:150px;
+     display:flex;
+     flex-direction:column;
+     justify-content:center;
+     align-content: center;
+     width:95%;
+     background-color:lavender;
+     border-radius:8px;
+ }
+ .projet_nolark article{
+     width:100%;
+ }
+ .projet_nolark article ul{
+     list-style-type: none;
+     width:90%;
+}
+.projet_nolark article ul li{
+     font-size:19px;
+     font-family:serif;
+     float:left;
+    }
+.projet_nolark article:first-child{
+     border-right:2px solid gray;
+ }
+ /*PPE*/
+.projet_ppe{
+     margin-top:150px;
+     display:flex;
+     flex-direction:column;
+     justify-content:center;
+     align-content: center;
+     width:95%;
+     border-radius:8px;  
+}
+.projet_ppe article{
+     width:100%;
+ }
+.projet_ppe article:first-child{
+     border-right:2px solid gray;
+ }
+.projet_ppe article ul{
+     list-style-type: none;
+     width:100%;
+ }
+.projet_ppe article ul li{
+     font-size:19px;
+     font-family:serif;
+     float:left;
+     
+ }
+  /*Projet Jeu du nombre caché*/
+ .projet_jeu_nbr{
+     margin-top:150px;
+     display:flex;
+     flex-direction:column;
+     justify-content:center;
+     width:95%;
+     background-color:lavender;
+     border-radius:8px;
+ }
+ .projet_jeu_nbr article{
+     width:100%;
+ }
+ .projet_jeu_nbr article ul{
+     float:left;
+     list-style-type: none;
+     width:40%;
+}
+.projet_jeu_nbr article ul li{
+     font-size:19px;
+     font-family:serif;
+     float:left;
+    }
+.projet_jeu_nbr article:first-child{
+     border-right:2px solid gray;
+ }
+  /*Projet réseau*/
+.projet_reseau{
+   margin-top:150px;
+     display:flex;
+     flex-direction:column;
+     justify-content:center;
+     align-content: center;
+     width:95%;
+     background-color:transparent;
+     border-radius:8px;  
+ }
+.projet_reseau  article{
+     width:100%;
+ }
+.projet_reseau article ul{
+     float:left;
+     list-style-type: none;
+     width:50%;
+}
+.projet_reseau article ul li{
+     font-size:19px;
+     font-family:serif;
+     float:left;
+    }
+.projet_reseau article:first-child{
+     border-right:2px solid gray;
+ }
+ /*Projet C#*/ 
+ .projet_c{
+   margin-top:150px;
+     display:flex;
+     flex-direction:column;
+     justify-content:center;
+     align-content: center;
+     width:95%;
+     background-color:lavender;
+     border-radius:8px;  
+ }
+.projet_c article{
+     width:100%;
+ }
+.projet_c article ul{
+     float:left;
+     list-style-type: none;
+     width:50%;
+}
+.projet_c article ul li{
+     font-size:19px;
+     font-family:serif;
+     float:left;
+    }
+.projet_c article:first-child{
+     border-right:2px solid gray;
+ }
+  /*Projet de Cybersécurité*/ 
+  .projet_cyb{
+     margin-top:150px;
+     display:flex;
+     flex-direction:column;
+     justify-content:center;
+     align-content: center;
+     width:95%;
+     background-color:transparent;
+     border-radius:8px;  
+ }
+.projet_cyb article{
+     width:100%;
+ }
+.projet_cyb article ul{
+     float:left;
+     list-style-type: none;
+     width:65%;
+    }
+.projet_cyb article ul li{
+     font-size:19px;
+     font-family:serif;
+     float:left;
+    }
+.projet_cyb article:first-child{
+     border-right:2px solid gray;
+ }
+
+}
