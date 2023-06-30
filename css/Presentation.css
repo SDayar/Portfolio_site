@@ -420,7 +420,8 @@ margin-top: 0px;
     border: 5px solid white;
     border-radius:6px;
     margin-left:0px;
-    animation:moi 2s ease-out;
+    margin-top:2px;
+    animation:moi 1s ease;
 }
 /*Fin*/
 /*Deuxième section de la page*/
@@ -558,13 +559,13 @@ header section{
 
 .moi{
     background-color:white;
-  
+    margin-top:2s;
     width:100%;
     box-shadow:3px 3px 2px gray;
     border: 5px solid white;
     border-radius:6px;
    
-    animation:moi 2s ease-out;
+    animation:moi 1s ease;
 }
 /*Fin*/
 /*Deuxième section de la page*/
