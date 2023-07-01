@@ -45,6 +45,7 @@ header section{
 article .barrelat li:first-child{
     margin-top:0px;
     width:100%;
+    background-color:red;
 }
   article .barrelat li {
     margin: 15px ;
