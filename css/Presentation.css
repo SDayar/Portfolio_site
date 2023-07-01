@@ -54,9 +54,9 @@ header section{
 .barrelat li a:hover{
     background-color:rgba(121, 115, 115, 0.8);
 }
-.barrelat li a:hover .barrelat li:before{
+.barrelat li a:hover::before{
     content:" -> ";
-    color: black;
+    color:red;
     
 
   }
