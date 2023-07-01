@@ -39,6 +39,7 @@ header section{
     background-color: white;
     animation: barrelat 1s ease;
     width:50%;
+     margin-top:-9px;
 
   }
   article .barrelat li {
