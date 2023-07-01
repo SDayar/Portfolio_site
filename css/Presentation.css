@@ -39,7 +39,7 @@ header section{
     justify-content:space-around;
     background-color: white;
     animation: barrelat 1s ease;
-    width:65%;
+    width:50%;
 
   }
   article .barrelat li {
@@ -56,6 +56,7 @@ header section{
     content:" -> ";
     color:lightblue;
 }
+
   /*Animation de la barre latérale*/
 @keyframes barrelat{
     from{
@@ -382,9 +383,7 @@ textarea{
 .scroll{
     display:none;
 }
-     #meteor{
-    display:block;
-     }
+
 header section{
     display:flex;
     flex-direction:row;
