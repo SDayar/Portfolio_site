@@ -86,6 +86,9 @@ header section{
 .croix:hover{
     cursor: pointer;
 }
+.en_tete{
+    display:none;
+}
 /*Fin de la barre lateralle*/
 nav .menu_deroulant{
     list-style-type: none;
@@ -383,6 +386,9 @@ textarea{
 .scroll{
     display:none;
 }
+     .en_tete{
+    display:block;
+}
 
 header section{
     display:flex;
@@ -546,9 +552,9 @@ header section{
     justify-content:space-between;
     
 }
-    #meteor{
+     .en_tete{
     display:block;
-    }
+}
 
 /*animation de la boite Qui suis-je ?*/
 
