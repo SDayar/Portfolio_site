@@ -30,9 +30,7 @@ header section{
     width:100%
      
  }
-header section .cont_menu_lat:nth-child(1n){
-    margin-top:-10px;
-}
+
  article .barrelat{
      list-style-type: none;
     display:flex;
@@ -41,6 +39,7 @@ header section .cont_menu_lat:nth-child(1n){
     background-color: white;
     animation: barrelat 1s ease;
     width:50%;
+     margin-top:-9px;
 
   }
   article .barrelat li {
@@ -454,7 +453,7 @@ textarea{
 header section{
     display:flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-between;
     
 }
 #apropos{
