@@ -42,8 +42,11 @@ header section{
     animation: barrelat 1s ease;
 
   }
+article .barrelat li:first-child{
+    margin-top:0px;
+}
   article .barrelat li {
-    margin: 6px ;
+    margin: 10px ;
   }
   article .barrelat li a{
     text-decoration:none;
@@ -52,11 +55,11 @@ header section{
     font-size:16px;
   }
 .barrelat li a:hover{
-    background-color:rgba(121, 115, 115, 0.8);
+    background-color:rgba(54, 40, 232, 0.8);
 }
 .barrelat li a:hover::before{
     content:" -> ";
-    color:red;
+    color:lightblue;
     
 
   }
