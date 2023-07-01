@@ -42,7 +42,7 @@ header section{
     animation: barrelat 1s ease;
 
   }
-article .barrelat li:first-child{
+article .barrelat li img{
     margin-top:0px;
     width:100%;
     background-color:red;
