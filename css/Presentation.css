@@ -32,6 +32,9 @@ header section{
      width:100%
      
  }
+header section:nth-child(1n){
+    margin-top:7px;
+}
  article .barrelat{
      list-style-type: none;
     display:flex;
