@@ -32,9 +32,7 @@ header section{
      width:100%
      
  }
-header section .cont_menu_lat:nth-child(1n){
-    margin-top:10px;
-}
+
 
  article .barrelat{
      list-style-type: none;
