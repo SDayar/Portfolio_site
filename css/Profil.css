@@ -454,9 +454,6 @@ header section{
     justify-content: space-between;
     
 }
-.btn_menu_lat:active .menu_deroulant{
-  display:flex;  
-}
 #apropos{
     font-family: cursive;
     font-size: 22px;
@@ -724,9 +721,7 @@ header section{
     justify-content: space-between;
     
 }
-.btn_menu_lat:active .menu_deroulant{
-  display:flex;  
-}
+
 #apropos{
     font-family: cursive;
     font-size: 22px;
