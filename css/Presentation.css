@@ -33,8 +33,9 @@ header section{
      
  }
 header section .cont_menu_lat:nth-child(1n){
-    margin-top:7px;
+    margin-top:10px;
 }
+
  article .barrelat{
      list-style-type: none;
     display:flex;
