@@ -56,6 +56,7 @@ article .barrelat li img{
     color:black;
     font-family:sans-serif;
     font-size:16px;
+    border-top:1px solid black;
   }
 .barrelat li a:hover{
     background-color:rgba(54, 40, 232, 0.8);
