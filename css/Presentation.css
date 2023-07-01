@@ -37,7 +37,7 @@ header section{
      list-style-type: none;
     display:flex;
     flex-direction: column;
-    justify-content:space-evenly;
+    justify-content:space-around;
     background-color: white;
     animation: barrelat 1s ease;
     width:65%;
