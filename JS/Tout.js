@@ -43,6 +43,7 @@ else{
     let fermeture = document.querySelector(".barrelat");
    fermeture.style.display="flex";
     document.querySelector(".croix").style.display="block";
+  document.querySelector("body").style.overflow="hidden";
 
     }, false);
     let fermeture = document.querySelector(".barrelat");
@@ -52,6 +53,7 @@ else{
         valeur.style.display="none";
         document.querySelector(".croix").style.display="none";
 document.querySelector(".btn_menu_lat").style.display="block";
+         document.querySelector("body").style.overflow="scroll";
 
     }, false);
 
