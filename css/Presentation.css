@@ -49,11 +49,15 @@ header section{
     text-decoration:none;
     color:black;
     font-family:sans-serif;
-    font-size:18px;
+    font-size:16px;
   }
- .barrelat li:before{
-    content:" ->";
+.barrelat li a:hover{
+    background-color:rgba(121, 115, 115, 0.8);
+}
+.barrelat li a:hover .barrelat li:before{
+    content:" -> ";
     color: black;
+    
 
   }
   /*Animation de la barre latérale*/
