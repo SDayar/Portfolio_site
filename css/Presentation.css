@@ -43,11 +43,6 @@ header section{
     width:75%;
 
   }
-article .barrelat li img{
-    margin-top:0px;
-    width:100%;
-    background-color:red;
-}
   article .barrelat li {
     margin: 15px ;
   }
@@ -56,11 +51,8 @@ article .barrelat li img{
     color:black;
     font-family:sans-serif;
     font-size:16px;
-    border-top:1px solid black;
+    border-top:1px solid lightblue;
   }
-.barrelat li a:hover{
-    background-color:rgba(54, 40, 232, 0.8);
-}
 .barrelat li a:hover::before{
     content:" -> ";
     color:lightblue;
