@@ -18,17 +18,15 @@ header{
 header section{
     display:none;
     position:fixed;
-    
     width:100%;
-    
     top:0px;
     background-color:darkblue;
   }
   header section .cont_menu_lat{
     display:none;
     position:absolute;
-     z-index: 3;
-     width:100%
+    z-index: 3;
+    width:100%
      
  }
  article .barrelat{
@@ -500,7 +498,6 @@ header section{
   /*première section*/
   .premieresec{
      width: 100%;
-     
      border:1px solid transparent;
      box-shadow:5px 0px 3px gray;
      display:flex;
