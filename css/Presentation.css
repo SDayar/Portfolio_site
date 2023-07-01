@@ -103,11 +103,12 @@ nav .menu_deroulant{
 }
 @keyframes meteor{
     from{
-        transform:transitionX(0px);
-        transform:transitionY(0px);
+        transform:translateX(0px);
+        transform:translateY(0px);
+        
     }to{
-        transform:transitionX(90px);
-        transform:transitionY(90px);
+        transform:translateX(90px);
+        transform:translateY(90px);
 }
 }
 nav .menu_deroulant li a{
