@@ -44,7 +44,7 @@ header section{
   }
 article .barrelat li:first-child{
     margin-top:0px;
-    width:70%;
+    width:100%;
 }
   article .barrelat li {
     margin: 15px ;
@@ -100,24 +100,6 @@ nav .menu_deroulant{
     justify-content:space-evenly;
     margin-top:0px;
     
-}
-
-
-
-#meteor{
-    display:none;
-    background-color:blue;
-    animation:meteor 100s ease;
-}
-@keyframes meteor{
-    from{
-        transform:translateX(0px);
-        transform:translateY(0px);
-        
-    }to{
-        transform:translateX(90px);
-        transform:translateY(90px);
-}
 }
 nav .menu_deroulant li a{
     text-decoration:none;
