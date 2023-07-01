@@ -32,6 +32,9 @@ header section{
      width:100%
      
  }
+video{
+    display:none;
+}
 
   article .barrelat{
      list-style-type: none;
@@ -56,9 +59,7 @@ header section{
 .barrelat li a:hover::before{
     content:" -> ";
     color:lightblue;
-    
-
-  }
+}
   /*Animation de la barre latérale*/
 @keyframes barrelat{
     from{
