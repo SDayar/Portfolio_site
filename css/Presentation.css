@@ -32,11 +32,7 @@ header section{
      width:100%
      
  }
-video{
-    display:none;
-}
-
-  article .barrelat{
+ article .barrelat{
      list-style-type: none;
     display:flex;
     flex-direction: column;
@@ -364,9 +360,7 @@ textarea{
          background-image:none;
          
          } 
-     video{
-         display:block;
-     }
+
          header h1{
        visibility: hidden;
          }
@@ -523,9 +517,6 @@ background-image:none;
 height:200px;
 
          } 
-    video{
-         display:block;
-     }
           header h1{
            visibility: hidden;
          }
