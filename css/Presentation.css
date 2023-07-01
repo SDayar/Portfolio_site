@@ -396,9 +396,7 @@ header section{
     justify-content:space-between;
     
 }
-.btn_menu_lat:active .menu_deroulant{
-  display:flex;  
-}
+
 
 /*animation de la boite Qui suis-je ?*/
 #premieresec{
