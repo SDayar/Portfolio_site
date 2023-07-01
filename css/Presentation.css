@@ -51,8 +51,8 @@ header section{
     font-family:sans-serif;
     font-size:18px;
   }
-  article .barrelat li::before{
-    content: ->;
+ .barrelat li:before{
+    content:" ->";
     color: black;
 
   }
@@ -99,7 +99,7 @@ nav .menu_deroulant{
 #meteor{
     display:none;
     background-color:blue;
-    animation:meteor 10s infinite ease;
+    animation:meteor 100s ease;
 }
 @keyframes meteor{
     from{
