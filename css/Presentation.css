@@ -71,10 +71,7 @@ header section{
     }
 }
 
- header article p{
-      font-size:20px;
-      color:white;
-  }
+
   .btn_menu_lat:hover{
     cursor: pointer;
   }
