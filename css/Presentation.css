@@ -23,7 +23,7 @@ header section{
     width:100%;
     
     top:0px;
-    background-color:darkblue;
+    background-color:blue;
   }
   header section .cont_menu_lat{
     display:none;
@@ -463,7 +463,7 @@ aside {
  footer{
      width:100%;
      margin-top:20px;
-     background-color:rgba(24, 13, 49, 1);
+     background-color:rgbablue;
      text-align: center;
     
    z-index: 1;
