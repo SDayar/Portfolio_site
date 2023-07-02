@@ -122,10 +122,12 @@ comm_event.preventDefault();
  }, false);
 
 //Fleche pour descendre//
-window.document.querySelector(".fa-solid fa-arrow-down fa-beat-fade fa-2xl").addEventListener("click", function(){
-document.querySelector(".moi").scrollTop = 90;
+function descendre(e){
+    var autre_ev = document.querySelector("#slide");
+    autre_ev.setPointerCapture(e.pointerId);
+ document.querySelector(".moi").scrollTop = 90;
     
-}, false);
+},;
 
  
  
