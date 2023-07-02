@@ -467,8 +467,8 @@ aside {
      margin-bottom:0px;
      height:auto;
      display:flex;
-     flex-direction:column;
-    justify-content:start;
+     flex-direction:column-reverse;
+    justify-content:space-around;
  }
 footer section{
      height:300px;
