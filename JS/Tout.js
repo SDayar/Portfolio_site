@@ -122,7 +122,7 @@ comm_event.preventDefault();
  }, false );
 //Fleche pour descendre//
 function descendre(){
-window.document.querySelector(".moi").scrollTop = 180;
+document.querySelector(".moi").scrollTop = 180;
 }
 
  
