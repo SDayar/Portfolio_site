@@ -120,6 +120,10 @@ var  mess = window.document.querySelector("#message").value;
         
   }
  }, false );
+//Fleche pour descendre//
+window.document.querySelector("#descendre").addEventListener("click", function(e){
+window.document.querySelector("body").scrollTop=530;
+}, false);
 
  
  
