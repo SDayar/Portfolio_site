@@ -110,7 +110,7 @@ var  mess = window.document.querySelector("#message").value;
  const comm = window.document.querySelector("#commentaire").value;
 //Envoyer un commentaire//
  window.document.querySelector("#btn_envoyer_com").addEventListener("click", function(comm_event){ 
-comm_event.preventDefault();
+
      
     if(comm == ""){
       
@@ -127,7 +127,7 @@ function descendre(e){
     autre_ev.setPointerCapture(e.pointerId);
  document.querySelector(".moi").scrollTop = 90;
     
-},;
+}
 
  
  
