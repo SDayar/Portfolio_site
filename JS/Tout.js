@@ -108,15 +108,16 @@ var  mess = window.document.querySelector("#message").value;
     
   }, false);
  const comm = window.document.querySelector("#commentaire").value;
-
+window.document.querySelector("#btn_envoyer_com").addEventListener("load", function(){
  window.document.querySelector("#btn_envoyer_com").addEventListener("click", function(comm_event){ 
-comm_event.preventDefault();
+
      
     if(comm == ""){
-      
-      alert("Saisissez le commentaire");
+      comm_event.preventDefault();
+      alert("Saisissez le commentaire !");
   }
  }, false );
+}, false);
 //Fleche pour descendre//
 function descendre(){
 document.querySelector(".moi").scrollTop = 180;
