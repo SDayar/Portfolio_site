@@ -388,6 +388,9 @@ textarea{
      .en_tete{
     display:block;
 }
+     #descendre{
+         display:block
+     }
 
 header section{
     display:flex;
@@ -552,6 +555,9 @@ header section{
     .en_tete{
     display:block;
 }
+     #descendre{
+         display:block
+     }
 
 /*animation de la boite Qui suis-je ?*/
 
