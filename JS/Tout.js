@@ -108,20 +108,22 @@ var  mess = window.document.querySelector("#message").value;
     
   }, false);
  const comm = window.document.querySelector("#commentaire").value;
-window.document.querySelector("#btn_envoyer_com").addEventListener("load", function(){
+//Envoyer un commentaire//
  window.document.querySelector("#btn_envoyer_com").addEventListener("click", function(comm_event){ 
-
+comm_event.preventDefault();
      
     if(comm == ""){
-      comm_event.preventDefault();
+      
       alert("Saisissez le commentaire !");
   }
+ }, false);
  }, false );
 }, false);
 //Fleche pour descendre//
-function descendre(){
+window.document.querySelector(".fa-solid fa-arrow-down fa-beat-fade fa-2xl").addEventListener("click", function(){
 document.querySelector(".moi").scrollTop = 180;
-}
+    
+}, false);
 
  
  
