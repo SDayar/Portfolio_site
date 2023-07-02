@@ -388,7 +388,7 @@ textarea{
      .en_tete{
     display:block;
 }
-     #descendre{
+    .en_tete i{
          display:block
      }
 
@@ -555,7 +555,7 @@ header section{
     .en_tete{
     display:block;
 }
-     #descendre{
+    .en_tete i{
          display:block
      }
 
