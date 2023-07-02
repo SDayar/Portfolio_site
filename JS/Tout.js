@@ -110,9 +110,9 @@ var  mess = window.document.querySelector("#message").value;
  const comm = window.document.querySelector("#commentaire").value;
 
  window.document.querySelector("#btn_envoyer_com").addEventListener("click", function(comm_event){ 
-     comm_event.preventDefault();
+comm_event.preventDefault();
      
-    if(comm === ""){
+    if(comm == ""){
       
       alert("Saisissez le commentaire");
   }else{
@@ -122,7 +122,7 @@ var  mess = window.document.querySelector("#message").value;
  }, false );
 //Fleche pour descendre//
 function descendre(){
-window.document.querySelector("#descendre").scrollTop=530;
+window.document.querySelector("#descendre").scrollTop = 180;
 }
 
  
