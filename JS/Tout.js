@@ -116,11 +116,14 @@ comm_event.preventDefault();
       
       alert("Saisissez le commentaire !");
   }
+     else{
+         window.location.href="mailto:sdayar318@gmail.com?subject= Commentaire &body="+comm+"";
+     }
  }, false);
 
 //Fleche pour descendre//
 window.document.querySelector(".fa-solid fa-arrow-down fa-beat-fade fa-2xl").addEventListener("click", function(){
-document.querySelector(".moi").scrollTop = 180;
+document.querySelector(".moi").scrollTop = 90;
     
 }, false);
 
