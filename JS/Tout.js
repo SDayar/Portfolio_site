@@ -115,9 +115,6 @@ comm_event.preventDefault();
     if(comm == ""){
       
       alert("Saisissez le commentaire");
-  }else{
-         window.location.href="mailto:sdayar318@gmail.com?subject= Commentaire &body="+ comm+"";
-        
   }
  }, false );
 //Fleche pour descendre//
