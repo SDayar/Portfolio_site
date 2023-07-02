@@ -122,9 +122,9 @@ var  mess = window.document.querySelector("#message").value;
  }, false);
 
 //Fleche pour descendre//
-function descendre(e){
+function descendre(){
     var autre_ev = document.querySelector("#slide");
-    autre_ev.setPointerCapture(e.pointerId);
+    autre_ev.setPointerCapture(pointerId);
  document.querySelector(".moi").scrollTop = 90;
     
 }
