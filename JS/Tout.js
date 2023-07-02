@@ -123,8 +123,7 @@ var  mess = window.document.querySelector("#message").value;
 
 //Fleche pour descendre//
 function descendre(){
-    var autre_ev = document.querySelector("#slide");
-    autre_ev.setPointerCapture(pointerId);
+   
  document.querySelector(".moi").scrollTop = 90;
     
 }
