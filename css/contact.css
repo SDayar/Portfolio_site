@@ -68,10 +68,7 @@ header section{
     }
 }
 
- header article p{
-      font-size:20px;
-      color:white;
-  }
+
   .btn_menu_lat:hover{
     cursor: pointer;
   }
@@ -335,7 +332,7 @@ header section{
  footer{
      width:100%;
      margin-top:400px;
-     background-color:rgba(24, 13, 49, 1);
+     background-color:darkblue;
      margin-bottom:0px;
        text-align: center;
      display:flex;
@@ -533,7 +530,7 @@ header section{
  footer{
      width:100%;
      
-     background-color:rgba(24, 13, 49, 1);
+     background-color:darkblue;
      margin-bottom:0px;
        text-align: center;
      display:flex;
