@@ -117,8 +117,7 @@ comm_event.preventDefault();
       alert("Saisissez le commentaire !");
   }
  }, false);
- }, false );
-}, false);
+
 //Fleche pour descendre//
 window.document.querySelector(".fa-solid fa-arrow-down fa-beat-fade fa-2xl").addEventListener("click", function(){
 document.querySelector(".moi").scrollTop = 180;
