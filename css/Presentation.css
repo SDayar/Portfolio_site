@@ -22,7 +22,6 @@ header section{
     position:fixed;
     width:100%;
     top:0px;
-    background-color:darkblue;
   }
   header section .cont_menu_lat{
     display:none;
@@ -37,7 +36,7 @@ article .barrelat{
     justify-content:space-around;
     background-color: white;
     animation: barrelat 1s ease;
-    width:60%;
+    width:50%;
 
   }
   article .barrelat li {
