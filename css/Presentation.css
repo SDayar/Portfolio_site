@@ -20,9 +20,7 @@ header{
 header section{
     display:none;
     position:fixed;
-    
     width:100%;
-    
     top:0px;
     background-color:darkblue;
   }
@@ -31,18 +29,15 @@ header section{
     position:absolute;
      z-index: 3;
      width:100%
-     
- }
-
-
- article .barrelat{
+    }
+article .barrelat{
      list-style-type: none;
     display:flex;
     flex-direction: column;
     justify-content:space-around;
     background-color: white;
     animation: barrelat 1s ease;
-    width:67%;
+    width:60%;
 
   }
   article .barrelat li {
@@ -57,7 +52,7 @@ header section{
   }
 .barrelat li a:hover::before{
     content:" -> ";
-    color:lightblue;
+    color:black;
 }
 
   /*Animation de la barre latérale*/
