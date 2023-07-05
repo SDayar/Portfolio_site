@@ -50,7 +50,7 @@ header section{
     color:black;
     font-family:sans-serif;
     font-size:16px;
-    border-top:1px solid lightblue;
+    border-bottom:2px solid black;
   }
 .barrelat li a:hover::before{
     content:" -> ";
