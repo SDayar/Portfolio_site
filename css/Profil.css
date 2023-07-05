@@ -158,6 +158,9 @@ nav .menu_deroulant li:hover::after{
    }
 
   /*Section de photo de profil*/
+.sommaire{
+display:none;
+}
   .photoprofil{
      
     margin-top:100px;
@@ -457,6 +460,9 @@ header section{
 
 
   /*Section de photo de profil*/
+     .sommaire{
+display:block;
+}
   .photoprofil{
     width:100%;
     border:1px solid transparent;
@@ -729,6 +735,9 @@ header section{
 
 
   /*Section de photo de profil*/
+     .sommaire{
+display:block;
+}
   .photoprofil{
     width:100%;
     border:1px solid transparent;
@@ -911,7 +920,7 @@ header section{
  footer{
      width:100%;
      margin-top:20px;
-     background-color:darkblue;
+     background-color:black;
      text-align: center;
     
     
