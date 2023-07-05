@@ -21,7 +21,7 @@ header section{
     position:fixed;
     width:100%;
     top:0px;
-    background-color:darkblue;
+    background-color:white;
   }
   header section .cont_menu_lat{
     display:none;
@@ -54,7 +54,7 @@ header section{
   }
 .barrelat li a:hover::before{
     content:" -> ";
-    color:lightblue;
+    color:black;
 }
 
   /*Animation de la barre latérale*/
@@ -74,7 +74,7 @@ header section{
     cursor: pointer;
   }
  .nom{
-      color:white;
+      color:black;
       font-family:sans-serif;
   }
   .croix{
