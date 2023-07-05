@@ -460,7 +460,7 @@ aside {
  footer{
      width:100%;
      margin-top:20px;
-     background-color:darkblue;
+     background-color:black;
      text-align:justify;
      margin-bottom: 0px;
      display:flex;
@@ -603,7 +603,7 @@ aside {
  footer{
     width:100%;
     margin-top:20px;
-    background-color:darkblue;
+    background-color:black;
     margin-bottom: 0px;
     display:flex;
     flex-direction:column-reverse;
