@@ -244,7 +244,7 @@ aside {
 
 }
 .option li{
-    color: darkblue;
+    color:black;
 }
 .diderot h4::first-letter{
     color:black;
@@ -254,7 +254,7 @@ aside {
 h4{
     font-size:28px;
     margin-left:9px;
-    text-decoration:underline dotted darkred;
+    text-decoration:underline dotted black;
     font-family: sans-serif;
 }
 .rouge{
