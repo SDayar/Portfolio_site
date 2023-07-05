@@ -434,9 +434,7 @@ margin-top: 0px;
     text-align:justify;
     width:100%;
 }
-.option li{
-    color: darkblue;
-}
+
 aside {
   border:1px solid white;
   box-shadow: 2px 2px 5px gray;
@@ -588,9 +586,7 @@ aside {
   
   
 }
-.option li{
-    color: darkblue;
-}
+
 .photodiderot img{
     display: none;
     width:70%;
