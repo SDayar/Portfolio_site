@@ -281,7 +281,7 @@ object{
 /*Pied de la page*/
  footer{
      width:100%;
-     background-color:darkblue;
+     background-color:black;
      margin-bottom: 0px;
      text-align: center;
      display:flex;
@@ -368,7 +368,7 @@ object{
 /*Pied de la page*/
  footer{
      width:100%;
-     background-color:darkblue;
+     background-color:black;
      margin-bottom: 0px;
      text-align: center;
      display:flex;
