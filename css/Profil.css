@@ -171,7 +171,7 @@ nav .menu_deroulant li:hover::after{
   #apropos{
     font-family: sans-serif;
     font-size: 30px;
-    color: darkblue;
+    color: black;
   }
   .photo{
       margin-top:44px;
@@ -232,7 +232,7 @@ nav .menu_deroulant li:hover::after{
     }
    /*h2,h3*/
  h2::first-letter{
-     color:darkred;
+     color:black;
      font-size:30px;
  }
  /*Suite de la partie compétence technique*/
@@ -306,44 +306,45 @@ nav .menu_deroulant li:hover::after{
     float:left;
     transition: width 1s ease;
  }
- #niveau_fr:hover{
-
- }
  #niveau_fr:after{
      content:'Oral : 90%';
+     color:white;
  }
  /*Français écrit*/
  #niveau_fr_e{
     z-index:5;
     width:0;
-    background-color:darkred;
+    background-color:black;
     float:left;
     transition: width 1s ease;
  }
  #niveau_fr_e:after{
      content:'Ecrit : 89%';
+     color:white;
  }
   /*Anglais oral*/
  #niveau_an{
     z-index:5;
     width:0;
-    background-color:darkred;
+    background-color:black;
     float:left;
     transition: width 1s ease;
  }
  #niveau_an:after{
      content:'Oral : 65%';
+     color:white;
  }
  /*Anglais écrit*/
  #niveau_an_e{
     z-index:5;
     width:0;
-    background-color:darkred;
+    background-color:black;
     float:left;
     transition: width 1s ease;
  }
  #niveau_an_e:after{
      content:'Ecrit : 70%';
+     color:white;
  }
  
  /*barre pour les niveau*/ 
@@ -456,7 +457,7 @@ header section{
 #apropos{
     font-family: cursive;
     font-size: 22px;
-    color: darkblue;
+    color: black;
   }
 
 
@@ -522,7 +523,7 @@ header section{
  
    /*h2,h3*/
  h2::first-letter{
-     color:darkred;
+     color:black;
      font-size:30px;
  }
  /*Suite de la partie compétence technique*/
@@ -592,41 +593,45 @@ header section{
  #niveau_fr{
     z-index:5;
     width:90%;
-    background-color:darkred;
+    background-color:black;
     float:left;
  }
  #niveau_fr:after{
      content:'Oral : 90%';
+     color:white;
  }
  /*Français écrit*/
  #niveau_fr_e{
     z-index:5;
     width:89%;
-    background-color:darkred;
+    background-color:black;
     float:left;
  }
  #niveau_fr_e:after{
      content:'Ecrit : 89%';
+     color:white;
  }
   /*Anglais oral*/
  #niveau_an{
     z-index:5;
     width:65%;
-    background-color:darkred;
+    background-color:black;
     float:left;
  }
  #niveau_an:after{
      content:'Oral : 65%';
+     color:white;
  }
  /*Anglais écrit*/
  #niveau_an_e{
     z-index:5;
     width:70%;
-    background-color:darkred;
+    background-color:black;
     float:left;
  }
  #niveau_an_e:after{
      content:'Ecrit : 70%';
+     color:white;
  }
  
  /*barre pour les niveau*/ 
@@ -638,7 +643,7 @@ header section{
  footer{
      width:100%;
      margin-top:20px;
-     background-color:darkblue;
+     background-color:black;
      text-align: center;
     
    
@@ -673,7 +678,7 @@ input[type=submit]:hover{
       width:100%;
 }
 textarea{
-    
+       background-color:white;
        width:100%;
        height:100px;
  }
@@ -724,7 +729,7 @@ header section{
 #apropos{
     font-family: cursive;
     font-size: 22px;
-    color: darkblue;
+    color: black;
   }
 
 
@@ -756,7 +761,7 @@ header section{
     }
   .texteprofil{
       width:100%;
-    
+
      
   }
   
@@ -791,7 +796,7 @@ header section{
  
    /*h2,h3*/
  h2::first-letter{
-     color:darkred;
+     color:black;
      font-size:30px;
  }
  /*Suite de la partie compétence technique*/
@@ -861,41 +866,45 @@ header section{
  #niveau_fr{
     z-index:5;
     width:90%;
-    background-color:darkred;
+    background-color:black;
     float:left;
  }
  #niveau_fr:after{
      content:'Oral : 90%';
+     color:white;
  }
  /*Français écrit*/
  #niveau_fr_e{
     z-index:5;
     width:89%;
-    background-color:darkred;
+    background-color:black;
     float:left;
  }
  #niveau_fr_e:after{
      content:'Ecrit : 89%';
+     color:white;
  }
   /*Anglais oral*/
  #niveau_an{
     z-index:5;
     width:65%;
-    background-color:darkred;
+    background-color:black;
     float:left;
  }
  #niveau_an:after{
      content:'Oral : 65%';
+     color:white;
  }
  /*Anglais écrit*/
  #niveau_an_e{
     z-index:5;
     width:70%;
-    background-color:darkred;
+    background-color:black;
     float:left;
  }
  #niveau_an_e:after{
      content:'Ecrit : 70%';
+     color:white;
  }
  
  /*barre pour les niveau*/ 
@@ -942,7 +951,7 @@ input[type=submit]:hover{
       width:100%;
 }
 textarea{
-    
+       backround-color:white;
        width:100%;
        height:100px;
  }
