@@ -70,7 +70,7 @@ header section{
     cursor: pointer;
   }
  .nom{
-      color:white;
+      color:black;
       font-family:sans-serif;
   }
   .croix{
@@ -463,7 +463,7 @@ aside {
  footer{
      width:100%;
      margin-top:400px;
-     background-color:darkblue;
+     background-color:black;
      margin-bottom:0px;
      height:auto;
      display:flex;
@@ -759,7 +759,7 @@ aside {
  footer{
      width:100%;
      margin-top:400px;
-     background-color:darkblue;
+     background-color:black;
      margin-bottom:0px;
      text-align: center;
     
