@@ -353,7 +353,7 @@ nav .menu_deroulant li:hover::after{
    width:40%;
    box-shadow:5px 0px 3px gray;
    box-sizing:border-box;   
- }*
+ }
  .distinction img{
      width:100%;
      height:85%;
@@ -535,7 +535,7 @@ header section{
     
  }
  .comp_tec aside h1{
-    color: darkblue;
+    color: black;
  }
  .comp_tec aside article img{
      width:30%;
@@ -808,7 +808,7 @@ header section{
     
  }
  .comp_tec aside h1{
-    color: darkblue;
+    color: black;
  }
  .comp_tec aside article img{
      width:30%;
