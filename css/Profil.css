@@ -265,25 +265,20 @@ nav .menu_deroulant li:hover::after{
      border:1px solid transparent;
      border-radius:4px;
      width:80%;
-    
-    
      box-shadow:5px 0px 3px gray;
      box-sizing:border-box;
  }
  .competence_ling .gr_liste_ln li{
      font-size:18px;
      margin-top:10px;
-    
- }
+    }
  .competence_ling .gr_liste_ln{
      list-style-type: none;
      display:flex;
      flex-direction:column;
      justify-content:space-evenly;
      width:60%;
-
-    
- }
+}
  li .liste_langue{
     list-style-type:none;
     display:flex;
@@ -302,7 +297,7 @@ nav .menu_deroulant li:hover::after{
  #niveau_fr{
     z-index:5;
     width:0;
-    background-color:darkred;
+    background-color:black;
     float:left;
     transition: width 1s ease;
  }
