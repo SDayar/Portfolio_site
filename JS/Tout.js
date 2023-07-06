@@ -111,12 +111,26 @@ var  mess = window.document.querySelector("#message").value;
 //Envoyer un commentaire//
 
 
-//Fleche pour descendre//
-window.document.querySelector("#descendre").addEventListener("click", function(){
-var descendre = document.querySelector(".photoprofil");
-    descendre.scrollTop = 100;
-                                       
-}, false);
+//Fleche pour descendre de la page profil//
+var pointer = window.document.querySelector("#descendre");
+//Capture du pointeur//
+pointer.addEventListener("pointerdown", function(event){
+    pointer.setPointerCapture(event.pointerId);
+
+});
+// Evénement à condition que le pointer soit capturé//
+pointer.addEventListener("pointermove", function(event){
+    if(event.pointerId === pointer.getPointerCapture(event.pointerType)){
+        var bloc = window.document.querySelector(".photoprofil");
+        bloc.scrollTop = 100;
+    }
+}
+    );
+//Evénement lorsqu'on relache la flèche//
+pointer.addEventListener("pointerup", function(event){
+    pointer.releasePointerCapture(event.pointerId);
+});
+
 
  
  
