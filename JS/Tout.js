@@ -109,24 +109,14 @@ var  mess = window.document.querySelector("#message").value;
   }, false);
  const comm = window.document.querySelector("#commentaire").value;
 //Envoyer un commentaire//
- window.document.querySelector("#btn_envoyer_com").addEventListener("click", function(comm_event){ 
 
-     
-    if(comm == ""){
-      
-      alert("Saisissez le commentaire !");
-  }
-     else{
-         window.location.href="mailto:sdayar318@gmail.com?subject= Commentaire &body="+comm+"";
-     }
- }, false);
 
 //Fleche pour descendre//
-function descendre(){
-   
- document.querySelector(".moi").scrollTop = 90;
-    
-}
+window.document.querySelector("#descendre").addEventListener("click", function(){
+var descendre = document.querySelector(".photoprofil");
+    descendre.scrollTop = 100;
+                                       
+}, false);
 
  
  
