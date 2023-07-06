@@ -122,7 +122,12 @@ pointer.addEventListener("pointerdown", function(event){
 pointer.addEventListener("pointermove", function(event){
     if(event.pointerId === pointer.getPointerCapture(event.pointerType)){
         var bloc = window.document.querySelector(".photoprofil");
-        bloc.scrollTop = 100;
+        bloc.scroll({
+            top:100,
+            left:0,
+            behavior:"smooth",
+            
+        });
     }
 }
     );
