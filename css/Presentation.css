@@ -116,7 +116,7 @@ nav .menu_deroulant li:hover::after{
  /*Fin de l'animation*/
  /*Barre de navigation au scroll*/
 .scroll{
-    background-color:rgba(172, 170, 171, 0.8);
+    background-color:rgba(121, 117, 119, 0.8);
     width:100%;
     top:0px;
     position:fixed;
