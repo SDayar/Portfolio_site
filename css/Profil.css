@@ -9,7 +9,7 @@ body{
     paddin:0px;
 }
 header{
-  background-color:rgba(121, 117, 119, 0.8);
+  background-image:url("../fond.png");
   background-repeat:no-repeat;
   background-size:cover;
   height:250px;
