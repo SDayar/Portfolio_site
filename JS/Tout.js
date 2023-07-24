@@ -109,6 +109,16 @@ var  mess = window.document.querySelector("#message").value;
   }, false);
  const comm = window.document.querySelector("#commentaire").value;
 //Envoyer un commentaire//
+document.querySelector("#btn_envoyer_com").addEventListener("click", function(event_com){
+event_com.preventDefault();
+    if(comm ==""){
+        alert("Veuillez saisir le commentaire");
+    }
+    else{
+        alert("Veuillez patientez !");
+        window.location.href="mailto:sdayar318@gmail.com?subject=Commentaire&body="+comm+"";
+    }
+}
 
 
 //Fleche pour descendre de la page profil//
