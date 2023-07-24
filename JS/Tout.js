@@ -56,6 +56,18 @@ document.querySelector(".btn_menu_lat").style.display="block";
          
 
     }, false);
+//Envoyer un commentaire//
+document.querySelector("#valid_comm").addEventListener("click", function(){
+    const comm = window.document.querySelector("#commentaire").value;
+    if(comm ==""){
+        alert("Veuillez saisir le commentaire");
+    }
+    else{
+        alert("Veuillez patientez !");
+        window.location.href="mailto:sdayar318@gmail.com?subject=Commentaire&body="+comm+"";
+    }
+}, false );
+
 
 window.document.querySelector("#btn_envoyer").addEventListener("click", function(event){ 
  event.preventDefault(); 
@@ -108,17 +120,6 @@ var  mess = window.document.querySelector("#message").value;
     
   }, false);
  
-//Envoyer un commentaire//
-document.querySelector("#valid_comm").addEventListener("click", function(){
-    const comm = window.document.querySelector("#commentaire").value;
-    if(comm ==""){
-        alert("Veuillez saisir le commentaire");
-    }
-    else{
-        alert("Veuillez patientez !");
-        window.location.href="mailto:sdayar318@gmail.com?subject=Commentaire&body="+comm+"";
-    }
-}, false );
 
 
 //Fleche pour descendre de la page profil//
