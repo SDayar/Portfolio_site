@@ -116,7 +116,7 @@ nav .menu_deroulant li:hover::after{
  /*Fin de l'animation*/
  /*Barre de navigation au scroll*/
 .scroll{
-    background-color:rgba(11, 1, 30, 0.9);
+    background-color:rgba(121, 117, 119, 0.8);
     width:100%;
     top:0px;
     position:fixed;
@@ -372,7 +372,7 @@ display:none;
  footer{
      width:100%;
      margin-top:50px;
-     background-color:rgba(24, 13, 49, 1);
+     background-color:black;
      margin-bottom:0px;
      
     display:flex;
@@ -397,7 +397,7 @@ footer section h3{
      height:30px;
      border:1px solid white;
      border-radius:5px;
-     color:black;
+     color:white;
      font-family:sans-serif;
      font-size:17px;
      width:60%;
