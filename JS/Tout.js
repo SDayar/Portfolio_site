@@ -107,10 +107,10 @@ var  mess = window.document.querySelector("#message").value;
     }
     
   }, false);
- const comm = window.document.querySelector("#commentaire").value;
+ 
 //Envoyer un commentaire//
-document.querySelector("#btn_envoyer_com").addEventListener("click", function(event_com){
-event_com.preventDefault();
+document.querySelector("#valid_comm").addEventListener("click", function(){
+    const comm = window.document.querySelector("#commentaire").value;
     if(comm ==""){
         alert("Veuillez saisir le commentaire");
     }
