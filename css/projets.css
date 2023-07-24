@@ -9,7 +9,7 @@ body{
     padding:0px;
 }
 header{
-  background-image:url("../images/banniere.png");
+  background-image:url("../fond.png");
   background-repeat:no-repeat;
   background-size:cover;
   height:250px;
