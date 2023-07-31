@@ -1,5 +1,6 @@
 
 const barre_nav = window.document.querySelector("nav");
+//Boite "moi"//
 const boite = document.querySelector(".moi");
 
 boite.style.marginRight="-10px";
@@ -17,20 +18,7 @@ if(y >= 510){
 }else{
     barre_nav.classList.remove("scroll");
 }
-if ( y=545){
-   boite.animate(
-       [
-           {transition:"translateX(0px)"},
-           {transition:"translateX(-10px)"},
-           
-        ],
-       {
-       duration:2000,
-           iterations:1,
-           },
-      
-   );
-}
+
    
     
     
