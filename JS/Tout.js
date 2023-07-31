@@ -23,7 +23,7 @@ if ( y=545){
            {transition:"translateX(-10px)"},
         ],
            {
-               duration:2s;
+               duration:2s,
        iterations:1,
 }  
    )
