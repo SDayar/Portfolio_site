@@ -18,7 +18,7 @@ if(y >= 510){
     barre_nav.classList.remove("scroll");
 }
 if ( y=545){
-   boite.animate{
+   boite.animate(
        [
            {transition:"translateX(-10px)"},
         ],
@@ -26,7 +26,7 @@ if ( y=545){
                duration:2s;
        iterations:1,
 }  
-   }
+   )
 }
    
     
