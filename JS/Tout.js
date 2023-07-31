@@ -1,7 +1,7 @@
 
 const barre_nav = window.document.querySelector("nav");
 const boite = document.querySelector(".moi");
-boite.style.position = "absolute";
+
 boite.style.marginRight="-10px";
 document.addEventListener("scroll", () => {
 var y = window.pageYOffset;
@@ -25,7 +25,7 @@ if ( y=545){
            
         ],
        {
-       duration:2,
+       duration:2000,
            iterations:1,
            },
       
