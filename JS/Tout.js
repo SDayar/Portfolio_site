@@ -21,11 +21,8 @@ if ( y=545){
    boite.animate(
        [
            {transition:"translateX(-10px)"},
-        ],
-           {
-               duration:2s,
-       iterations:1,
-}  
+        ]
+      
    )
 }
    
