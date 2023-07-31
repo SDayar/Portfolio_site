@@ -1,8 +1,12 @@
 
 const barre_nav = window.document.querySelector("nav");
-
+const boite = document.querySelector(".moi");
+boite.style.position = "absolute";
+boite.style.marginRight="-10px";
 document.addEventListener("scroll", () => {
 var y = window.pageYOffset;
+
+
 
 
 console.log( "Hauteur du scroll = " + y);
@@ -12,6 +16,21 @@ if(y >= 510){
     
 }else{
     barre_nav.classList.remove("scroll");
+}
+if ( y=545){
+   boite.animate{
+       [
+           {transition:"translateX(-10px)"},
+        ],
+           {
+               duration:2s;
+       iterations:1,
+}  
+   }
+}
+   
+    
+    
 }
 var larg_niveau_fr= window.document.querySelector("#niveau_fr");
 var larg_niveau_fr_e= window.document.querySelector("#niveau_fr_e");
