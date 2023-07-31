@@ -31,7 +31,7 @@ if ( y=545){
    
     
     
-}
+
 var larg_niveau_fr= window.document.querySelector("#niveau_fr");
 var larg_niveau_fr_e= window.document.querySelector("#niveau_fr_e");
 var larg_niveau_an= window.document.querySelector("#niveau_an");
