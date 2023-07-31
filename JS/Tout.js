@@ -20,10 +20,16 @@ if(y >= 510){
 if ( y=545){
    boite.animate(
        [
+           {transition:"translateX(0px)"},
            {transition:"translateX(-10px)"},
-        ]
+           
+        ],
+       {
+       duration:2,
+           iterations:1,
+           },
       
-   )
+   );
 }
    
     
