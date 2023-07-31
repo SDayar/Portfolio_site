@@ -3,7 +3,7 @@ const barre_nav = window.document.querySelector("nav");
 //Boite "moi"//
 const boite = document.querySelector(".moi");
 
-boite.style.marginRight="-10px";
+
 document.addEventListener("scroll", () => {
 var y = window.pageYOffset;
 
