@@ -190,14 +190,14 @@ visibility:hidden;
     box-shadow:3px 3px 2px gray;
     border: 5px solid white;
     border-radius:6px;
-    animation:moi 1.5s ease;
+    animation:moi 1s ease;
     }
 
 /*animation de la boite Qui suis-je ?*/
 @keyframes moi{
 from{
     opacity:0;
-    transform:translateX(0);
+    transform:translateX(20px);
 }
 to{
     opacity:1;
@@ -244,7 +244,7 @@ aside {
 }
 @keyframes droitegauche{
     from{
-        transform:translateX(0);
+        transform:translateX(-20px);
     }
     to{
         transform:translateX(20px);
@@ -252,11 +252,11 @@ aside {
 }
 .btssio {
     
-    animation:gauchedroite 1.5s ease;
+    animation:gauchedroite 2s ease;
 }
 @keyframes gauchedroite{
     from{
-        transform:translateX(0);
+        transform:translateX(20px);
     }
     to{
         transform:translateX(-20px);
