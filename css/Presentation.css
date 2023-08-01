@@ -190,18 +190,18 @@ display:none;
     box-shadow:3px 3px 2px gray;
     border: 5px solid white;
     border-radius:6px;
-    animation:moi 1s ease;
+    animation:moi 1s ease-in;
     }
 
 /*animation de la boite Qui suis-je ?*/
 @keyframes moi{
 from{
     opacity:0;
-    transform:translateY(0);
+    transform:translateX(0);
 }
 to{
     opacity:1;
-    transform:translateY(-5px); 
+    transform:translateX(-5px); 
     }
 }
   
@@ -222,9 +222,8 @@ to{
     width:100%;
     margin-top:100px;
     display:flex;
-    flex-direction:row;
+    flex-direction:column;
     justify-content:space-evenly;
-    
     width:100%;
 }
 aside {
@@ -235,6 +234,31 @@ aside {
   margin-top: 30px;
   
   
+}
+//Animation des boites dans infoderoulants//
+.diderot {
+    display:"none";
+    animation:droitegauche 1s ease-in;
+}
+@keyframes droitegauche{
+    from{
+        transform:translateX(0);
+    }
+    to{
+        transform:translateX(5px);
+    }
+}
+.btssio {
+    display:"none";
+    animation:gauchedroite 1.5s ease-in;
+}
+@keyframes gauchedroite{
+    from{
+        transform:translateX(0);
+    }
+    to{
+        transform:translateX(-5px);
+    }
 }
 
 .option{
