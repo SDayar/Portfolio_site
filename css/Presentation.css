@@ -185,21 +185,19 @@ margin-top: 200px;
 }
 .moi{
     background-color:white;
-    
+    display:none;
     width:50%;
-    
     box-shadow:3px 3px 2px gray;
     border: 5px solid white;
     border-radius:6px;
     animation:moi 1s ease;
-    
-}
+    }
 
 /*animation de la boite Qui suis-je ?*/
 @keyframes moi{
 from{
     opacity:0;
-    transform:translate(0);
+    transform:translateY(0);
 }
 to{
     opacity:1;
