@@ -182,7 +182,7 @@ nav .menu_deroulant li:hover::after{
 /*Conteneur de la boite moi*/
 .boitemoi{
 margin-top: 200px;
-display:none;    
+visibility:hidden;   
 }
 .moi{
     background-color:white;
@@ -221,7 +221,7 @@ to{
     background-color:white;
     width:100%;
     margin-top:100px;
-    display:none;
+    visibility:hidden;
     flex-direction:column;
     justify-content:center;
     width:100%;
