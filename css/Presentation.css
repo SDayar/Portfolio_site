@@ -197,11 +197,11 @@ visibility:hidden;
 @keyframes moi{
 from{
     opacity:0;
-    transform:translateX(0);
+    transform:translateY(0);
 }
 to{
     opacity:1;
-    transform:translateX(-5px); 
+    transform:translateY(-10px); 
     }
 }
   
@@ -243,10 +243,10 @@ aside {
 }
 @keyframes droitegauche{
     from{
-        transform:translateX(0);
+        transform:translateY(0);
     }
     to{
-        transform:translateX(5px);
+        transform:translateY(10px);
     }
 }
 .btssio {
@@ -255,10 +255,10 @@ aside {
 }
 @keyframes gauchedroite{
     from{
-        transform:translateX(0);
+        transform:translateY(0);
     }
     to{
-        transform:translateX(-5px);
+        transform:translateY(-10px);
     }
 }
 
