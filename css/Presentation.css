@@ -182,10 +182,10 @@ nav .menu_deroulant li:hover::after{
 /*Conteneur de la boite moi*/
 .boitemoi{
 margin-top: 200px;
+display:none;    
 }
 .moi{
     background-color:white;
-    display:none;
     width:50%;
     box-shadow:3px 3px 2px gray;
     border: 5px solid white;
