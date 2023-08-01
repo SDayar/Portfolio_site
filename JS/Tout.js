@@ -1,7 +1,7 @@
 
 const barre_nav = window.document.querySelector("nav");
 //Boite "moi"//
-const boite = document.querySelector(".moi");
+const boite = document.querySelector(".boitemoi");
 
 
 document.addEventListener("scroll", () => {
@@ -21,6 +21,9 @@ if(y >= 510){
 if(y>=75){
     boite.style.display="flex";
 }
+    else{
+     boite.style.display="none";   
+    }
 
    
     
