@@ -25,7 +25,7 @@ if(y>=75){
 }else{
      boite.style.visibility="hidden";   
     }
-if ( y>=1410){
+if ( y>=1080){
     infoderou.style.visibility="visible";
 }
     else{
