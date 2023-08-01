@@ -3,10 +3,10 @@ const barre_nav = window.document.querySelector("nav");
 //Boite "moi" et les infoderoulants//
 const boite = document.querySelector(".boitemoi");
 const infoderou = document.querySelector(".infoderoulant");
-var y = window.pageYOffset;
+
 
 document.addEventListener("scroll", () => {
-
+let y = window.pageYOffset;
 
 
 
@@ -35,6 +35,7 @@ if ( y>=1080){
 );
     
     document.addEventListener("scroll", function(){
+let y = window.pageYOffset;
 var larg_niveau_fr= window.document.querySelector("#niveau_fr");
 var larg_niveau_fr_e= window.document.querySelector("#niveau_fr_e");
 var larg_niveau_an= window.document.querySelector("#niveau_an");
