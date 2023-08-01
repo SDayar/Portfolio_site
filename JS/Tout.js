@@ -5,7 +5,7 @@ const boite = document.querySelector(".boitemoi");
 const infoderou = document.querySelector(".infoderoulant");
 
 
-document.addEventListener("scroll", () => {
+document.querySelector("body").addEventListener("scroll", () => {
 var y = window.pageYOffset;
 
 
@@ -31,11 +31,11 @@ if ( y>=1410){
     else{
         infoderou.style.visibility="hidden";
     }
-
-   
+}
+);
     
     
-
+window.document.querySelector("body").addEventListener("scroll", function{
 var larg_niveau_fr= window.document.querySelector("#niveau_fr");
 var larg_niveau_fr_e= window.document.querySelector("#niveau_fr_e");
 var larg_niveau_an= window.document.querySelector("#niveau_an");
@@ -53,9 +53,9 @@ else{
     larg_niveau_an.style.width="0";
     larg_niveau_an_e.style.width="0";
 }
-    
 }
 );
+                                        
 //Barre lateralle//
 
     window.document.querySelector(".btn_menu_lat").addEventListener("click", function(){
