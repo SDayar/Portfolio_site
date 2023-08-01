@@ -18,6 +18,9 @@ if(y >= 510){
 }else{
     barre_nav.classList.remove("scroll");
 }
+if(y=75){
+    boite.style.display="flex";
+}
 
    
     
