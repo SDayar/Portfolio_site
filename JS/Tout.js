@@ -20,16 +20,16 @@ if(y >= 510){
     barre_nav.classList.remove("scroll");
 }
 if(y>=75){
-    boite.style.display="flex";
+    boite.style.visibility="visible";
     
 }else{
-     boite.style.display="none";   
+     boite.style.visibility="hidden";   
     }
 if ( y>=1410){
-    infoderou.style.display="flex";
+    infoderou.style.visibility="visible";
 }
     else{
-        infoderou.style.display="none";
+        infoderou.style.visibility="hidden";
     }
 
    
