@@ -222,8 +222,8 @@ to{
     width:100%;
     margin-top:100px;
     visibility:hidden;
-    flex-direction:column;
-    justify-content:center;
+    flex-direction:row;
+    justify-content:space-evenly;
     width:100%;
    
 }
