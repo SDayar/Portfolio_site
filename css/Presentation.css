@@ -223,8 +223,9 @@ to{
     margin-top:100px;
     display:flex;
     flex-direction:column;
-    justify-content:space-evenly;
+    justify-content:center;
     width:100%;
+    display:none;
 }
 aside {
   border:1px solid white;
@@ -237,7 +238,7 @@ aside {
 }
 //Animation des boites dans infoderoulants//
 .diderot {
-    display:"none";
+
     animation:droitegauche 1s ease-in;
 }
 @keyframes droitegauche{
@@ -249,7 +250,7 @@ aside {
     }
 }
 .btssio {
-    display:"none";
+    
     animation:gauchedroite 1.5s ease-in;
 }
 @keyframes gauchedroite{
