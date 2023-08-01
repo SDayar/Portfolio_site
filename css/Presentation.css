@@ -190,7 +190,7 @@ visibility:hidden;
     box-shadow:3px 3px 2px gray;
     border: 5px solid white;
     border-radius:6px;
-    animation:moi 1s ease-out;
+    animation:moi 1s ease-in-out;
     }
 
 /*animation de la boite Qui suis-je ?*/
@@ -240,7 +240,7 @@ aside {
 //Animation des boites dans infoderoulants//
 .diderot {
 
-    animation:droitegauche 1s ease-in;
+    animation:droitegauche 1s ease-in-out;
 }
 @keyframes droitegauche{
     from{
@@ -252,7 +252,7 @@ aside {
 }
 .btssio {
     
-    animation:gauchedroite 3s ease-in;
+    animation:gauchedroite 3s ease-in-out;
 }
 @keyframes gauchedroite{
     from{
