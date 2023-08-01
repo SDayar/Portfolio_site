@@ -1,7 +1,8 @@
 
 const barre_nav = window.document.querySelector("nav");
-//Boite "moi"//
+//Boite "moi" et les infoderoulants//
 const boite = document.querySelector(".boitemoi");
+const infoderou = document.querySelecto(".infoderoulant");
 
 
 document.addEventListener("scroll", () => {
@@ -20,9 +21,15 @@ if(y >= 510){
 }
 if(y>=75){
     boite.style.display="flex";
+    
+}else{
+     boite.style.display="none";   
+    }
+if ( y>=1410){
+    infoderou.style.display="flex";
 }
     else{
-     boite.style.display="none";   
+        infoderou.style.display="none";
     }
 
    
