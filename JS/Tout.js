@@ -2,7 +2,7 @@
 const barre_nav = window.document.querySelector("nav");
 //Boite "moi" et les infoderoulants//
 const boite = document.querySelector(".boitemoi");
-const infoderou = document.querySelecto(".infoderoulant");
+const infoderou = document.querySelector(".infoderoulant");
 
 
 document.addEventListener("scroll", () => {
