@@ -19,7 +19,7 @@ if(y >= 510){
 }else{
     barre_nav.classList.remove("scroll");
 }
-if(y>=75){
+if(y>=613){
     boite.style.visibility="visible";
     
 }else{
