@@ -3,10 +3,10 @@ const barre_nav = window.document.querySelector("nav");
 //Boite "moi" et les infoderoulants//
 const boite = document.querySelector(".boitemoi");
 const infoderou = document.querySelector(".infoderoulant");
-
+var y = window.pageYOffset;
 
 document.addEventListener("scroll", () => {
-var y = window.pageYOffset;
+
 
 
 
