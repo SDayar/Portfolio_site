@@ -37,7 +37,7 @@ if ( y>=1080 && w>= 780){
      boite.style.transform="translateY(-10px)"
 }
     else if(y<1080 && w>= 780){
-        infoderou.style.transform="translateY(10px);
+        infoderou.style.transform="translateY(10px)";
         infoderou.style.display="none";
     }
     else{
