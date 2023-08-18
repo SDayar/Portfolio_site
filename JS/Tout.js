@@ -20,17 +20,28 @@ if(y >= 510){
 }else{
     barre_nav.classList.remove("scroll");
 }
-if(y>=613){
-    boite.style.visibility="visible";
+if(y>=613 && w>= 780){
+    boite.style.display="flex";
+    boite.style.transform="translateY(-10px)";
     
-}else{
-     boite.style.visibility="hidden";   
-    }
-if ( y>=1080){
-    infoderou.style.visibility="visible";
 }
+    else if(y<613 && w>= 780){
+        boite.style.transform="translateY(10px)";
+        boite.style.display="none";
+    }
+else{
+     boite.style.display="none"; 
+    }
+if ( y>=1080 && w>= 780){
+   infoderou.style.display="flex";
+     boite.style.transform="translateY(-10px)"
+}
+    else if(y<1080 && w>= 780){
+        infoderou.style.transform="translateY(10px);
+        infoderou.style.display="none";
+    }
     else{
-        infoderou.style.visibility="hidden";
+        infoderou.style.display="none";
     }
 }
 );
