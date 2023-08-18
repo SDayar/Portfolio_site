@@ -57,11 +57,11 @@ article .barrelat{
   /*Animation de la barre latérale*/
 @keyframes barrelat{
     from{
-        opacity: 0px;
+        opacity: 0;
         transform: translateX(-8px);
     }
     to{
-        opacity: 1px;
+        opacity: 1;
         transform: translatX(0px);
     }
 }
@@ -140,7 +140,7 @@ nav .menu_deroulant li:hover::after{
         transform:translateY(0);
     }
     to{
-        opacity:1px;
+        opacity:1;
         transform:translateY(1px);
     }
 }
@@ -197,11 +197,11 @@ visibility:hidden;
 @keyframes moi{
 from{
     opacity:0;
-    transform:translateX(80px);
+    transform:translateY(80px);
 }
 to{
     opacity:1;
-    transform:translateX(-80px); 
+    transform:translateY(-80px); 
     }
 }
   
