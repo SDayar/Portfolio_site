@@ -7,7 +7,7 @@ const infoderou = document.querySelector(".infoderoulant");
 
 document.addEventListener("scroll", () => {
 let y = window.pageYOffset;
-let w = window.offsetWidth;
+let w = screen.width;
 console.log(w);
 
 
@@ -20,7 +20,7 @@ if(y >= 510){
 }else{
     barre_nav.classList.remove("scroll");
 }
-if(y>=613 && w >= 780){
+if(y>=613){
     boite.style.visibility="visible";
     
 }else{
