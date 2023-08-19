@@ -160,6 +160,7 @@ nav .menu_deroulant li:hover::after{
   /*Section de photo de profil*/
 .sommaire{
 display:none;
+scroll-behavior:smooth;
 }
   .photoprofil{
      
