@@ -94,8 +94,13 @@ document.querySelector("#valid_comm").addEventListener("click", function(){
         alert("Veuillez saisir le commentaire");
     }
     else{
-        alert("Veuillez patientez !");
+        let confirmation = confirm("Vous serez dirigez vers votre boite mail !");
+        if(confirmation == true){
         window.location.href="mailto:sdayar318@gmail.com?subject=Commentaire&body="+comm+"";
+        }
+        else{
+            alert("Commentaire non envoyé !");
+        }
     }
 }, false );
 
@@ -153,30 +158,6 @@ var  mess = window.document.querySelector("#message").value;
  
 
 
-//Fleche pour descendre de la page profil//
-var pointer = window.document.querySelector("#descendre");
-//Capture du pointeur//
-pointer.addEventListener("pointerdown", function(event){
-    pointer.setPointerCapture(event.pointerId);
-
-});
-// Evénement à condition que le pointer soit capturé//
-pointer.addEventListener("pointermove", function(event){
-    if(event.pointerId === pointer.getPointerCapture(event.pointerType)){
-        var bloc = window.document.querySelector(".photoprofil");
-        bloc.scroll({
-            top:100,
-            left:0,
-            behavior:"smooth",
-            
-        });
-    }
-}
-    );
-//Evénement lorsqu'on relache la flèche//
-pointer.addEventListener("pointerup", function(event){
-    pointer.releasePointerCapture(event.pointerId);
-});
 
 
  
