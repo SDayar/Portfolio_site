@@ -196,7 +196,7 @@ nav .menu_deroulant li:hover::after{
  footer{
      width:100%;
      margin-top:150px;
-     background-color:rgba(24, 13, 49, 1);
+     background-color:black;
      margin-bottom:0px;
    
     display:flex;
