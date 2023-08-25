@@ -9,15 +9,19 @@ body{
     overflow:auto;
     animation: loader 10s linear;
     animation-iteration-count:1;
+    filter:3px;
    
 } 
 @keyframes loader{
     from{
-      filter:blur(3);
+      filter:blur(3px);
     }
     to{
       filter:blur(0);
     }
+}
+body{
+    
 }
 header{
   background-image:url("../haut_page.gif");
