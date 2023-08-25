@@ -13,12 +13,10 @@ body{
 } 
 @keyframes loader{
     from{
-        background-color:White;
-        opacity:1;
+      filter:blur(3);
     }
     to{
-        opacity:0;
-        background-color:transparent;
+      filter:blur(0);
     }
 }
 header{
