@@ -7,7 +7,7 @@ body{
     margin:0px;
     padding:0px;
     overflow:auto;
-    animation: loader 10s linear;
+    animation: loader 2s linear;
     animation-iteration-count:1;
     filter:3px;
    
