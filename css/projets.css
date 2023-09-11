@@ -554,7 +554,7 @@ textarea{
 .projet_ppe article ul li{
      font-size:19px;
      font-family:serif;
-     float:left;
+     text-align:justify;
      
  }
   /*Projet Jeu du nombre caché*/
