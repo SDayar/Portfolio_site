@@ -20,7 +20,7 @@ if(y >= 510){
 }else{
     barre_nav.classList.remove("scroll");
 }
-if(y>=613 && w>= 780){
+/*if(y>=613 && w>= 780){
     boite.style.visibility="visible";
     boite.style.transform="translateY(-10px)";
     
@@ -28,16 +28,16 @@ if(y>=613 && w>= 780){
     else if(y<613 && w>= 780){
         boite.style.transform="translateY(10px)";
         boite.style.visibility="hidden";
-    }
+    }*/
 
 if ( y>=1080 && w>= 780){
    infoderou.style.visibility="visible";
      boite.style.transform="translateY(-10px)"
 }
-    else if(y<1080 && w>= 780){
+    /*else if(y<1080 && w>= 780){
         infoderou.style.transform="translateY(10px)";
         infoderou.style.visibility="hidden";
-    }
+    }*/
     
 }
 );
