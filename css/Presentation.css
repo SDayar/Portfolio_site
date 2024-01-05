@@ -3,12 +3,24 @@
     Auteur     : sdayar
     Description : Page css pour la présentation
 */
+//Alerte pour une maintenance//
 .maintenance{
 border:2px solid red;
 position:absolute;
+top:120px;
 right:0;
-color:red;
 }
+.maintenance p{
+    color:red;
+}
+.maintenance button{
+    position:absolute;
+    left:0;
+    background-color:black;
+    color:white;
+    
+}
+//Alerte pour une maintenance//
 body{ 
     margin:0px;
     padding:0px;
