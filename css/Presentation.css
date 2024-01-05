@@ -6,7 +6,7 @@
 /* Alerte pour une maintenance */
 .maintenance{
     display:flex;
-    flex-direction:row;
+    flex-direction:column;
     justify-content:center;
     background-color:white;
 border:1px solid red;
