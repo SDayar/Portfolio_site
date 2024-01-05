@@ -5,6 +5,9 @@
 */
 /* Alerte pour une maintenance */
 .maintenance{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-evenly;
     background-color:white;
 border:1px solid red;
 position:absolute;
@@ -15,7 +18,11 @@ right:0;
 .maintenance p{
     color:red;
 }
-
+.maintenance button{
+    border:1px solid transparent;
+    border-radius:5px 5px 5px;
+    
+}
 
 //Alerte pour une maintenance//
 
