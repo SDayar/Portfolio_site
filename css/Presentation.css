@@ -4,6 +4,7 @@
     Description : Page css pour la présentation
 */
 .maintenance{
+    background-color:white;
 border:1px solid red;
 position:absolute;
 margin-top:120px;
