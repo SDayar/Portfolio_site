@@ -13,10 +13,7 @@ right:0;
 .maintenance p{
     color:red;
 }
-.maintenance button{
-    position:absolute;
-    left:0;
-}
+
 //Alerte pour une maintenance//
 
 body{ 
