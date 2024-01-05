@@ -3,6 +3,7 @@
     Auteur     : sdayar
     Description : Page css pour la présentation
 */
+/* Alerte pour une maintenance */
 .maintenance{
     background-color:white;
 border:1px solid red;
