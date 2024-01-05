@@ -9,9 +9,11 @@
     color:red;
     border:2px solid white;
     background-color:white;
-    width:5cm;
+    
     
 }
+.maintenance p {
+    color:red;
 
 //Alerte pour une maintenance//
 body{ 
