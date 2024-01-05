@@ -4,7 +4,7 @@
     Description : Page css pour la présentation
 */
 .maintenance{
-border:2px solid redlight;
+border:2px solid red;
 position:absolute;
 right:0;
 color:red;
