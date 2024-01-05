@@ -1,6 +1,6 @@
 
 function maintenance(){
- const alerte_lu = document.querySelector(".maintenance);
+ const alerte_lu = document.querySelector(".maintenance");
  alerte_lu.style.display="none";
 }
                                     
