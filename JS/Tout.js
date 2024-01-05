@@ -1,7 +1,9 @@
+
 function maintenance(){
-    const aff_alerte= document.querySelector(".alerte");
-    aff_alerte.style.display="none";
+ const alerte_lu = document.querySelector(".maintenance);
+ alerte_lu.style.display="none";
 }
+                                    
 const barre_nav = window.document.querySelector("nav");
 //Boite "moi" et les infoderoulants//
 const boite = document.querySelector(".boitemoi");
