@@ -4,23 +4,11 @@
     Description : Page css pour la présentation
 */
 //Alerte pour une maintenance//
-.maintenance{
-width:5cm;
-border:2px solid red;
-position:absolute;
-margin-top:120px;
-right:0;
-}
+
 .maintenance p{
     color:red;
 }
-.maintenance button{
-    position:absolute;
-    left:0;
-    background-color:black;
-    color:white;
-    
-}
+
 //Alerte pour une maintenance//
 body{ 
     margin:0px;
