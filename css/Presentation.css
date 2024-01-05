@@ -5,9 +5,10 @@
 */
 //Alerte pour une maintenance//
 .maintenance{
+width:5cm;
 border:2px solid red;
 position:absolute;
-top:120px;
+margin-top:120px;
 right:0;
 }
 .maintenance p{
@@ -404,6 +405,25 @@ textarea{
  }
  /*Partie responsive pour un smartphone de taille standard*/ 
  @media only screen and (max-device-width: 480px) {
+     //Alerte pour une maintenance//
+.maintenance{
+border:2px solid red;
+width:5cm;
+position:absolute;
+right:0;
+margin-top:120px;
+}
+.maintenance p{
+    color:red;
+}
+.maintenance button{
+    position:absolute;
+    left:0;
+    background-color:black;
+    color:white;
+    
+}
+//Alerte pour une maintenance/
      body{
          display:flex;
          flex-direction:column;
@@ -559,6 +579,25 @@ textarea{
 
 }
 @media only screen and (max-device-width: 780px) and (min-device-width: 480px) {
+    //Alerte pour une maintenance//
+.maintenance{
+border:2px solid red;
+width:5cm;
+position:absolute;
+margin-top:120px;
+right:0;
+}
+.maintenance p{
+    color:red;
+}
+.maintenance button{
+    position:absolute;
+    left:0;
+    background-color:black;
+    color:white;
+    
+}
+//Alerte pour une maintenance/
      body{
          display:flex;
          flex-direction:column;
