@@ -5,8 +5,12 @@
 */
 //Alerte pour une maintenance//
 
-.maintenance p{
+.maintenance{
     color:red;
+    border:2px solid white;
+    background-color:white;
+    width:5cm;
+    
 }
 
 //Alerte pour une maintenance//
