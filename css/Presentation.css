@@ -3,26 +3,7 @@
     Auteur     : sdayar
     Description : Page css pour la présentation
 */
-//Alerte pour une maintenance//
 
-.maintenance{
-    color:red;
-    border:2px solid white;
-    background-color:white;
-    margin-top:120px;
-    position:absolute;
-    left:0px;
-    
-    
-}
-.maintenance p {
-    color:red;
-}
-.maintenance{
-    position:absolute;
-    left:0px;
-    
-//Alerte pour une maintenance//
 body{ 
     margin:0px;
     padding:0px;
@@ -406,25 +387,7 @@ textarea{
  }
  /*Partie responsive pour un smartphone de taille standard*/ 
  @media only screen and (max-device-width: 480px) {
-     //Alerte pour une maintenance//
-.maintenance{
-border:2px solid red;
-width:5cm;
-position:absolute;
-right:0;
-margin-top:120px;
-}
-.maintenance p{
-    color:red;
-}
-.maintenance button{
-    position:absolute;
-    left:0;
-    background-color:black;
-    color:white;
-    
-}
-//Alerte pour une maintenance/
+  
      body{
          display:flex;
          flex-direction:column;
