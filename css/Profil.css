@@ -8,6 +8,9 @@ body{
     margin:0px;
     paddin:0px;
 }
+html{
+    scroll-behavior:smooth;
+}
 header{
   background-image:url("../fond.png");
   background-repeat:no-repeat;
