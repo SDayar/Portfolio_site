@@ -70,7 +70,7 @@ article .barrelat{
     flex-direction: column;
     justify-content:space-around;
     background-color: white;
-    animation: barrelat 1s ease;
+    animation: barrelat 1s linear;
     width:50%;
 
   }
