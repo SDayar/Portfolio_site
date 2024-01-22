@@ -4,8 +4,7 @@
     Description : Page css pour la présentation
 */
 body{
-    background-image:url("../banniere.png");
-    background-size:cover;
-    background-repeat:no-repeat;
+background: rgb(251,63,239);
+background: linear-gradient(90deg, rgba(251,63,239,1) 0%, rgba(31,141,219,1) 100%);
 }
 
