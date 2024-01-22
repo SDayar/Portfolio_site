@@ -33,14 +33,7 @@ body{
     filter:3px;
    
 } 
-@keyframes loader{
-    from{
-      filter:blur(3px);
-    }
-    to{
-      filter:blur(0);
-    }
-}
+
 body{
     
 }
@@ -70,7 +63,7 @@ article .barrelat{
     flex-direction: column;
     justify-content:space-around;
     background-color: white;
-    animation: barrelat 0.5s linear;
+    animation: barrelat 1s linear;
     width:50%;
 
   }
