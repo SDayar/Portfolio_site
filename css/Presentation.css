@@ -21,15 +21,14 @@ right:0;
    
     
 }
+body{
+  background-image:url("../haut_page.gif");
+  
+  background-size:cover;
+}
 
 //Alerte pour une maintenance//
-
-body{ 
-background-image:url("../haut_page.gif");
-  background-repeat:no-repeat;
-  background-size:cover; 
-   
-} 
+ 
 header{
  
   height:560px;
