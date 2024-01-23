@@ -27,16 +27,14 @@ right:0;
    
     
 }
-body{
-  background-image:url("../haut_page.gif");
-  
-  background-size:cover;
-}
+
 
 //Alerte pour une maintenance//
  
 header{
- 
+ background-image:url("../haut_page.gif");
+  
+  background-size:cover;
   height:560px;
   z-index:0;
   width:100%;
