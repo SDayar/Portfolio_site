@@ -5,7 +5,6 @@
 */
 body{
     margin:Opx;
-padding:0px;
 }
  ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -33,10 +32,8 @@ right:0;
  
 header{
   background-image:url("../haut_page.gif");
-  background-repeat:no-repeat;
   background-size:cover;
   height:560px;
-  z-index:0;
   width:100%;
 }
 header section{
@@ -398,6 +395,7 @@ textarea{
 
 
 }
+//Partie responsive pour un device de largeur située entre un smartphone et une tablette//
 @media only screen and (max-device-width: 780px) and (min-device-width: 480px) {
     
      body{
