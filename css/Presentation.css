@@ -31,7 +31,7 @@ right:0;
 //Alerte pour une maintenance//
  
 header{
-  background-image:url("../haut_page.gif");
+  background-image:url("../fond.png");
   background-size:cover;
   height:560px;
   width:100%;
@@ -55,7 +55,7 @@ article .barrelat{
     justify-content:space-around;
     background-color: white;
     animation: barrelat 1s linear;
-    width:50%;
+    width:60%;
 
   }
   article .barrelat li {
