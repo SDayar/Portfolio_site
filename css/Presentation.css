@@ -53,7 +53,8 @@ article .barrelat{
     display:flex;
     flex-direction: column;
     justify-content:space-around;
-    background-color: white;
+    background: rgb(85,85,114);
+   background: linear-gradient(90deg, rgba(85,85,114,1) 0%, rgba(28,28,28,1) 27%, rgba(134,140,192,1) 55%, rgba(55,67,120,1) 76%, rgba(53,68,79,1) 100%);
     animation: barrelat 1s linear;
     width:60%;
 
