@@ -4,8 +4,8 @@
     Description : Page css pour la présentation
 */
 body{
-    margin:Opx;
-    background-image:url("../background.png")
+    margin:0px;
+    background-image:url("../background.png");
     background-size:cover;
 }
  ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -26,8 +26,6 @@ z-index:1;
 .maintenance button{
     border:1px solid transparent;
     border-radius:5px 5px 5px;
-   
-    
 }
 
 
@@ -56,7 +54,7 @@ article .barrelat{
     flex-direction: column;
     justify-content:space-around;
     background: rgb(85,85,114);
-   background: linear-gradient(90deg, rgba(85,85,114,1) 0%, rgba(28,28,28,1) 27%, rgba(134,140,192,1) 55%, rgba(55,67,120,1) 76%, rgba(53,68,79,1) 100%);
+    background: linear-gradient(90deg, rgba(85,85,114,1) 0%, rgba(28,28,28,1) 27%, rgba(134,140,192,1) 55%, rgba(55,67,120,1) 76%, rgba(53,68,79,1) 100%);
     animation: barrelat 1s linear;
     width:60%;
 
@@ -120,9 +118,8 @@ nav .menu_deroulant{
 }
 nav .menu_deroulant li a{
     text-decoration:none;
-    
-    font-family:fantasy;
-    font-size:22px;
+    color:blue;
+    font-size:2em;
 }
 /*//////////////////////////////animation pour surligner les rubriques////////////////////////////////::*/
 nav .menu_deroulant li::after{
