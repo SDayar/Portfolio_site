@@ -31,8 +31,7 @@ right:0;
 //Alerte pour une maintenance//
  
 header{
-  background-image:url("../fond.png");
-  background-size:cover;
+
   height:560px;
   width:100%;
 }
@@ -118,7 +117,7 @@ nav .menu_deroulant{
 }
 nav .menu_deroulant li a{
     text-decoration:none;
-    color:white;
+    
     font-family:fantasy;
     font-size:22px;
 }
