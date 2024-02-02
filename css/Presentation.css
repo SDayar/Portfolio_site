@@ -13,7 +13,7 @@ body{
 
     /* Alerte pour une maintenance */
 .maintenance{
-background-color:white;
+
 border:1px solid red;
 position:absolute;
 margin-top:120px;
@@ -196,11 +196,11 @@ margin-top: 200px;
 .moi{
     background-color:transparent;
     width:50%;
-    box-shadow:3px 3px 2px gray;
-    border: 5px solid white;
+    border: 1px solid white;
     border-radius:6px;
     animation:moi 1s ease;
     animation-timeline:view();
+    color:white;
     }
 
 /*animation de la boite Qui suis-je ?*/
@@ -218,11 +218,8 @@ to{
  /*Pied de la page*/
  footer{
      width:100%;
-     margin-top:20px;
      background-color:transparent;
-     
-     position:relative;
-
+     position:absolute;
      bottom: 0px;
      display:flex;
     flex-direction:row;
