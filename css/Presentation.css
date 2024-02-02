@@ -195,6 +195,7 @@ nav .menu_deroulant li:hover::after{
 ///////////////////////////////////Titre Bienvenue///////////////////////////////////////////////////////
 .titre_bvn{
     opacity:0px;
+    background-color:white;
     animation:glisse_droite 30s linear;
     animation-timeline:view();
     will-change:transform;
@@ -244,8 +245,20 @@ nav .menu_deroulant li:hover::after{
 
 
 ////////////////////////////Conteneur de la boite moi////////////////////////
+.boite_moi{
+    float:right;
+    width:30%;
+    display:flex;
+    flex-direction:row;
+    
+}
+.boite_moi:first-child{
+    z-index:1;
+    object-fit:cover;
+}
 
 .moi{
+    z-index:0;
     background-color:transparent;
     width:20%;
     animation:moi 1s ease;
