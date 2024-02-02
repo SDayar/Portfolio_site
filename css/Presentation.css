@@ -8,6 +8,8 @@ body{
     background-image:url("../ecran.png");
     background-size:cover;
     z-index:-1;
+   -webkit-filter:blur(8px);
+    
 }
  ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -217,10 +219,11 @@ to{
   
  /*Pied de la page*/
  footer{
-     width:100%;
+     
      background-color:transparent;
-     position:absolute;
+     position:fixed;
      bottom: 0px;
+     font-size:1em;
      display:flex;
     flex-direction:row;
     justify-content:space-around;
