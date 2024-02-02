@@ -245,12 +245,7 @@ nav .menu_deroulant li:hover::after{
 
 ////////////////////////////Conteneur de la boite moi////////////////////////
 .boitemoi{
-    position:absolute;
-    right:0px;
-    width:20%;
-    display:flex;
-    flex-direction:row;
-    justify-content:center;
+  width:5%;
     
 }
 .boitemoi article:first-child{
@@ -271,7 +266,7 @@ nav .menu_deroulant li:hover::after{
     background-color:transparent;
     object-fit:cover;
     animation:moi 1s ease;
-    animation-timeline:view();
+    -webkit-animation-timeline:view();
     color:white;
     }
 
@@ -293,7 +288,7 @@ to{
  footer{
      width:100%;
      background-color:transparent;
-     position:absolute;
+     position:fixed;
      bottom: 0px;
      font-size:1em;
      display:flex;
