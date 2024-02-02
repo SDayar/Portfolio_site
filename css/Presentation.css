@@ -244,8 +244,10 @@ nav .menu_deroulant li:hover::after{
 
 
 ////////////////////////////Conteneur de la boite moi////////////////////////
-.boitemoi{
+section .boitemoi {
   width:5%;
+display:flex;
+flex-direction:row;
     
 }
 .boitemoi article:first-child{
