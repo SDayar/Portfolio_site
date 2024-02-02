@@ -5,8 +5,6 @@
 */
 body{
     margin:0px;
-    background-image:url("../fond_image.png");
-    background-size:cover;
     z-index:-1;
     }
 
@@ -244,9 +242,8 @@ nav .menu_deroulant li:hover::after{
 
 
 ////////////////////////////Conteneur de la boite moi////////////////////////
-.boitemoi{
+header .boitemoi{
     background-color:green;
-    
 }
 .boitemoi article:first-child{
     position:relative;
