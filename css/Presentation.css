@@ -8,8 +8,7 @@ body{
     background-image:url("../fond_image.png");
     background-size:cover;
     z-index:-1;
-    
-}
+    }
 
 
 
@@ -246,11 +245,17 @@ nav .menu_deroulant li:hover::after{
 
 ////////////////////////////Conteneur de la boite moi////////////////////////
 .boitemoi{
-    float:right;
+    float:left;
     width:30%;
     display:flex;
     flex-direction:column;
+    justify-content:center;
     
+}
+.boitemoi article img{
+    width:400px;
+    height:400px;
+    object-fit:cover;
 }
 
 
