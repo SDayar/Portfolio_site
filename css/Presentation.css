@@ -5,11 +5,16 @@
 */
 body{
     margin:0px;
-    background-image:url("../ecran.png");
+    background-image:url("../fond_image.png");
     background-size:cover;
     z-index:-1;
     
 }
+
+
+
+
+
  ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
     /* Alerte pour une maintenance */
@@ -189,7 +194,14 @@ nav .menu_deroulant li:hover::after{
    }
 
 
-/*Conteneur de la boite moi*/
+
+
+
+
+
+
+
+////////////////////////////Conteneur de la boite moi////////////////////////
 
 .moi{
     background-color:transparent;
@@ -215,9 +227,9 @@ to{
   
  /*Pied de la page*/
  footer{
-     
+     width:100%;
      background-color:transparent;
-     position:fixed;
+     position:relative;
      bottom: 0px;
      font-size:1em;
      display:flex;
@@ -255,7 +267,19 @@ textarea{
        width:97%;
        height:50px;
  }
- /*Partie responsive pour un smartphone de taille standard*/ 
+
+
+
+
+
+
+
+
+
+
+
+
+ //////////////////////Partie responsive pour un smartphone de taille standard////////////////// 
  @media only screen and (max-device-width: 480px) {
   
      body{
