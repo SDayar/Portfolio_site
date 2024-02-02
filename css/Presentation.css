@@ -6,6 +6,8 @@
 body{
     margin:0px;
     z-index:-1;
+    background-image:url("../fond_image.png");
+    background-size:cover;
     }
 
 
