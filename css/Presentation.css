@@ -5,14 +5,17 @@
 */
 body{
     margin:0px;
-    background-image:url("../background.png");
+    background-image:url("../ecran.png");
     background-size:cover;
+    background: rgb(251,251,255);
+    background: linear-gradient(90deg, rgba(251,251,255,1) 0%, rgba(57,55,55,1) 53%, rgba(67,68,73,1) 69%, rgba(61,56,56,1) 84%);
+    z-index:-1;
 }
  ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
     /* Alerte pour une maintenance */
 .maintenance{
-background-color:#fcfcfc;
+background-color:white;
 border:1px solid red;
 position:absolute;
 margin-top:120px;
@@ -118,8 +121,8 @@ nav .menu_deroulant{
 }
 nav .menu_deroulant li a{
     text-decoration:none;
-    color:blue;
-    font-size:2em;
+    color:white;
+    font-size:1em;
 }
 /*//////////////////////////////animation pour surligner les rubriques////////////////////////////////::*/
 nav .menu_deroulant li::after{
