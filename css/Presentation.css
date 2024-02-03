@@ -231,19 +231,23 @@ nav .menu_deroulant li:hover::after{
 
 ////////////////////////////Conteneur de la boite moi////////////////////////
 .presentation{
-    background-color:green;
     animation:presentation 1s ease;
     -webkit-animation-timeline:view();
 }
-.presentation article:first-child{
+.presentation2{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+}
+.presentation2 article:first-child{
    width:60%;
 }
-.presentation article img{
+.presentation2 article img{
     width:200px;
     height:200px;
     object-fit:cover;
 }
-.presentation article:last-child{
+.presentation2 article:last-child{
     width:40%;
     color:#fff;
     background-color:transparent;
