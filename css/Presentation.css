@@ -8,11 +8,6 @@ body{
    
     
     }
-
-
-
-
-
  ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
     /* Alerte pour une maintenance */
@@ -42,6 +37,8 @@ header{
 }
 header section{
     display:none;
+    flex-direction:row;
+    justify-content:space-between;
     position:fixed;
     width:100%;
     top:0px;
@@ -269,7 +266,7 @@ to{
  footer{
      width:100%;
      background-color:black;
-     position:relative;
+     position:absolute;
      bottom: 0px;
      font-size:1em;
      display:flex;
@@ -319,9 +316,8 @@ textarea{
          
      ///////////////////////////Menu déroulant//////////////////////////////
      header section{
-    display:flex;
-    flex-direction:row;
-    justify-content:space-between;
+    display:flex !important;
+    
     
 }
     header nav .menu_deroulant{
@@ -426,11 +422,10 @@ textarea{
 header{
 background-image:none;
 height:200px;
-
-         } 
-          header h1{
-           visibility: hidden;
-         }
+} 
+header section{
+    display:flex !important;
+}
     /*/////////////////////////Menu déroulant///////////////////////*/
 nav .menu_deroulant{
 display:none !important;
@@ -451,12 +446,7 @@ color:darkblue;
 .presentation{
     margin-top: 0px;
 }
-header section{
-    display:flex !important;
-    flex-direction:row;
-    justify-content:space-between;
-}
-    .en_tete{
+.en_tete{
     display:block;
 }
     .en_tete i{
