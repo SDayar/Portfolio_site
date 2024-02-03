@@ -5,7 +5,7 @@
 */
 body{
     margin:0px;
-    z-index:-1;
+   
     
     }
 
@@ -41,10 +41,11 @@ header{
   width:100%;
 }
 header section{
-    display:none;
+    display:flex;
     position:fixed;
     width:100%;
     top:0px;
+    z-index:10;
   }
   header section .cont_menu_lat{
     display:none;
@@ -194,13 +195,8 @@ nav .menu_deroulant li:hover::after{
     background-color:white;
 }
 .titre_bvn h1{
- background-image: linear-gradient(
-    -225deg,
-    #231557 0%,
-    #44107a 29%,
-    #ff1361 67%,
-    #fff800 100%
-  );
+ background-image: 
+linear-gradient(90deg, rgba(129,129,129,1) 0%, rgba(42,44,47,1) 36%, rgba(53,53,61,1) 68%, rgba(204,202,202,1) 84%);
   background-size: auto auto;
   background-clip: border-box;
   background-size: 200% auto;
@@ -218,15 +214,6 @@ nav .menu_deroulant li:hover::after{
     background-position: 200% center;
   }
 }
-
-
-
-
-
-
-
-
-
 ////////////////////////////Conteneur de la boite moi////////////////////////
 .presentation{
     float:right;
@@ -343,7 +330,7 @@ textarea{
          
      ///////////////////////////Menu déroulant//////////////////////////////
      header section{
-    display:flex !important;
+    display:flex;
     flex-direction:row;
     justify-content:space-evenly;
     
@@ -548,4 +535,3 @@ textarea{
        height:100px;
  }
 }
-
