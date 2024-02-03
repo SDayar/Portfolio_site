@@ -225,7 +225,7 @@ linear-gradient(90deg, rgba(129,129,129,1) 0%, rgba(42,44,47,1) 36%, rgba(53,53,
     height:30%;
     object-fit:cover;
     float:right;
-     animation:presentation 30 ease;
+     animation:presentation 30s ease;
     -webkit-animation-timeline:view();
     
 }
@@ -298,12 +298,11 @@ textarea{
  }
 
 /*Partie responsive pour un smartphone de taille standard*/ 
- @media screen and (max-device-width: 480px) {
-  
+ @media only screen and (max-device-width: 480px) {
      body{
          display:flex;
          flex-direction:column;
-         justify-content:space-between;
+         justify-content:space-evenly;
          align-content: center;
          
      }
@@ -314,7 +313,7 @@ textarea{
          } 
 
          
-     ///////////////////////////Menu déroulant//////////////////////////////
+     /*Menu deroulant*/
      header section{
     display:flex !important;
     
