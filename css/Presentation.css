@@ -6,8 +6,7 @@
 body{
     margin:0px;
     z-index:-1;
-    background-image:url("../fond_image.png");
-    background-size:cover;
+    
     }
 
 
@@ -283,13 +282,14 @@ to{
  /*Pied de la page*/
  footer{
      width:100%;
-     background-color:transparent;
-     position:fixed;
+     background-color:black;
+     position:relative;
      bottom: 0px;
      font-size:1em;
      display:flex;
     flex-direction:row;
     justify-content:space-around;
+     color:white;
      
  }
  .liens{
