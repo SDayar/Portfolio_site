@@ -332,26 +332,29 @@ textarea{
          flex-direction:column;
          justify-content:space-between;
          align-content: center;
-         flex-wrap: wrap;
-         flex:300px;
+         
      }
      
      header{
-         background-image:none;
+       
          height:250px;
          } 
 
-         header h1{
-       visibility: hidden;
-         }
-     /*//////////////////////////Menu déroulant/////////////////////////////*/
-     nav .menu_deroulant{
+         
+     ///////////////////////////Menu déroulant//////////////////////////////
+     header section{
+    display:flex !important;
+    flex-direction:row;
+    justify-content:space-evenly;
+    
+}
+    header nav .menu_deroulant{
+    display:none !important;
     list-style-type: none;
-    display:none;
     flex-direction:column;
     justify-content:space-evenly;
     margin-top:3px;
-    background-color: red;
+    
     }
     nav .menu_deroulant li a{
     text-decoration:none;
@@ -370,17 +373,10 @@ textarea{
          display:block;
      }
 
-header section{
-    display:flex;
-    flex-direction:row;
-    justify-content:space-between;
-    
-}
 
 /*////////////////////////Din de la partie barre de navigation////////////////*/
-/*animation de la boite Qui suis-je ?*/
 
-/*conteneur de la boite moi*/
+/*conteneur presentation*/
 .presentation{
 margin-top: 0px;
 } 
@@ -401,7 +397,7 @@ margin-top: 0px;
 /*Pied de la page*/
  footer{
      width:100%;
-     position:relative;
+     position:absolute;
      bottom:0px;
      background-color:black;
      text-align:center;
@@ -465,31 +461,28 @@ height:200px;
          }
     /*/////////////////////////Menu déroulant///////////////////////*/
 nav .menu_deroulant{
+display:none !important;
 list-style-type: none;
-display:none;
-flex-direction:column;
-justify-content:space-evenly;
+
 margin-top:3px;
-background-color: red;
+
 }
  nav .menu_deroulant li a{
 text-decoration:none;
 color:darkblue;
- font-family:fantasy;
  font-size:22px;
     
 }
 .scroll{
     display:none;
 }
-.boitemoi{
+.presentation{
     margin-top: 0px;
 }
 header section{
-    display:flex;
+    display:flex !important;
     flex-direction:row;
-    justify-content:space-between;
-    
+    justify-content:space-evenly;
 }
     .en_tete{
     display:block;
@@ -498,9 +491,9 @@ header section{
          display:block;
      }
 /*//////////////////////FIn du menu déroulant////////////*/
-/*animation de la boite Qui suis-je ?*/
 
-.presentation article:last-child{
+
+.presentation2 article:last-child{
     background-color:white;
     margin-top:2s;
     width:100%;
@@ -508,7 +501,7 @@ header section{
     border: 5px solid white;
     border-radius:6px;
    text-align:justify;
-    animation:moi 1s ease;
+  animation:moi 1s ease;
 }
 /*Fin*/
 
