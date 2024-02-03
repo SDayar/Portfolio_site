@@ -233,14 +233,22 @@ nav .menu_deroulant li:hover::after{
 .presentation{
     animation:presentation 1s ease;
     -webkit-animation-timeline:view();
+    width:200px;
+    --prsntion_dimension:200;
+    height:200px;
 }
 .presentation2{
+    float:right;
     display:flex;
     flex-direction:row;
-    flex-wrap:wrap;
+    width:calc(1/2 * var(--prsntion_dimension));
+    height:calc(1/2 * var(--prsntion_dimension));
+    object-fit:cover;
 }
 .presentation2 article:first-child{
-   width:60%;
+   position:relative;
+    z-index:1;
+   
 }
 .presentation2 article img{
     width:200px;
@@ -248,11 +256,12 @@ nav .menu_deroulant li:hover::after{
     object-fit:cover;
 }
 .presentation2 article:last-child{
+    position:relative;
     width:40%;
     color:#fff;
     background-color:transparent;
     object-fit:cover;
-    
+    z-index:0;
     color:white;
     }
 
