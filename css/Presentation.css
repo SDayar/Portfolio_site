@@ -300,19 +300,8 @@ textarea{
        height:50px;
  }
 
-
-
-
-
-
-
-
-
-
-
-
- //////////////////////Partie responsive pour un smartphone de taille standard////////////////// 
- @media only screen and (max-device-width: 480px) {
+/*Partie responsive pour un smartphone de taille standard*/ 
+ @media screen and (max-device-width: 480px) {
   
      body{
          display:flex;
@@ -428,7 +417,7 @@ textarea{
 
 }
 //Partie responsive pour un device de largeur située entre un smartphone et une tablette//
-@media only screen and (max-device-width: 780px) and (min-device-width: 480px) {
+@media screen and(max-device-width: 780px) and (min-device-width: 480px) {
     
      body{
          display:flex;
