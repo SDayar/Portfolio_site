@@ -41,7 +41,7 @@ header{
   width:100%;
 }
 header section{
-    display:flex;
+    display:none;
     position:fixed;
     width:100%;
     top:0px;
@@ -93,7 +93,7 @@ article .barrelat{
   }
  .nom{
       color:black;
-      font-family:sans-serif;
+    
   }
   .croix{
     margin: 2px;
@@ -256,11 +256,11 @@ linear-gradient(90deg, rgba(129,129,129,1) 0%, rgba(42,44,47,1) 36%, rgba(53,53,
 @keyframes presentation{
 from{
     opacity:0;
-    transform : translateY(0);
+    transform:translateY(3px);
     }
 to{
     opacity:1;
-    transform: translateY(3px);
+    transform:translateY(0);
     }
 }
 
@@ -321,7 +321,7 @@ textarea{
      header section{
     display:flex;
     flex-direction:row;
-    justify-content:space-evenly;
+    justify-content:space-between;
     
 }
     header nav .menu_deroulant{
@@ -366,15 +366,12 @@ margin-top: 0px;
     border-radius:6px;
     margin-left:0px;
     margin-top:2px;
-    animation:moi 1s ease;
 }
 /*Fin*/
 
 /*Pied de la page*/
  footer{
      width:100%;
-     position:absolute;
-     bottom:0px;
      background-color:black;
      text-align:center;
      margin-bottom: 0px;
@@ -398,8 +395,7 @@ color:black;
      border:1px solid white;
      border-radius:5px;
      color:black;
-     font-family:sans-serif;
-     font-size:17px;
+     font-size:1em;
      width:80%;
      transition:width 1s ease-in-out;
      margin-top: 3px;
@@ -458,7 +454,7 @@ color:darkblue;
 header section{
     display:flex !important;
     flex-direction:row;
-    justify-content:space-evenly;
+    justify-content:space-between;
 }
     .en_tete{
     display:block;
@@ -471,7 +467,7 @@ header section{
 
 .presentation2 article:last-child{
     background-color:white;
-    margin-top:2s;
+    margin-top:2px;
     width:100%;
     box-shadow:3px 3px 2px gray;
     border: 5px solid white;
@@ -483,9 +479,7 @@ header section{
 
 /*Pied de la page*/
  footer{
-    width:100%;
-    position:relative;
-     bottom:1px;
+    width:100%
     background-color:black;
     margin-bottom: 0px;
     display:flex;
@@ -511,7 +505,7 @@ footer section h3{
      border:1px solid white;
      border-radius:5px;
      color:black;
-     font-size:17px;
+     font-size:1em;
      width:80%;
      transition:width 1s ease-in-out;
 }
