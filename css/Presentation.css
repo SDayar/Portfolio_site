@@ -231,22 +231,25 @@ nav .menu_deroulant li:hover::after{
 
 ////////////////////////////Conteneur de la boite moi////////////////////////
 .presentation{
-    animation:presentation 1s ease;
-    -webkit-animation-timeline:view();
+    float:right;
     width:200px;
     --prsntion_dimension:200;
     height:200px;
 }
 .presentation2{
-    float:right;
     display:flex;
     flex-direction:row;
-    width:calc(1/2 * var(--prsntion_dimension));
-    height:calc(1/2 * var(--prsntion_dimension));
+    width:50%;
+    height:30%;
     object-fit:cover;
+    float:right;
+     animation:presentation 30 ease;
+    -webkit-animation-timeline:view();
+    
 }
 .presentation2 article:first-child{
    position:relative;
+    left:3px;
     z-index:1;
    
 }
@@ -257,12 +260,11 @@ nav .menu_deroulant li:hover::after{
 }
 .presentation2 article:last-child{
     position:relative;
-    width:40%;
     color:#fff;
     background-color:transparent;
     object-fit:cover;
     z-index:0;
-    color:white;
+    color:black;
     }
 
 /*animation de la boite Qui suis-je ?*/
@@ -273,10 +275,9 @@ from{
     }
 to{
     opacity:1;
-    transform: translateY(2px);
+    transform: translateY(3px);
     }
 }
-
 
   
  /*Pied de la page*/
