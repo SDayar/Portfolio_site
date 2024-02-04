@@ -14,7 +14,6 @@ body{
 .maintenance{
 border:2px solid red;
 position:absolute;
-margin-top:120px;
 right:0;
 z-index:1;
 
