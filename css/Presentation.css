@@ -90,7 +90,7 @@ article .barrelat{
   }
  .nom{
     background-image: 
-linear-gradient(90deg, rgba(129,129,129,1) 0%, rgba(42,44,47,1) 36%, rgba(53,53,61,1) 68%, rgba(204,202,202,1) 84%);
+linear-gradient(90deg, rgba(23,23,23,1) 0%, rgba(42,44,47,1) 36%, rgba(83,83,92,1) 52%, rgba(204,202,202,1) 84%);
   background-size: auto auto;
   background-clip: border-box;
   background-size: 200% auto;
@@ -211,7 +211,7 @@ nav .menu_deroulant li:hover::after{
 }
 .titre_bvn h1{
  background-image: 
-linear-gradient(90deg, rgba(129,129,129,1) 0%, rgba(42,44,47,1) 36%, rgba(53,53,61,1) 68%, rgba(204,202,202,1) 84%);
+linear-gradient(90deg, rgba(23,23,23,1) 0%, rgba(42,44,47,1) 36%, rgba(83,83,92,1) 52%, rgba(204,202,202,1) 84%);
   background-size: auto auto;
   background-clip: border-box;
   background-size: 200% auto;
