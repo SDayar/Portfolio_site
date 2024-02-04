@@ -76,10 +76,26 @@ header section{
   .btn_menu_lat:hover{
     cursor: pointer;
   }
- .nom{
-      color:black;
-      font-family:sans-serif;
+  .nom{
+    background-image: 
+linear-gradient(90deg, rgba(129,129,129,1) 0%, rgba(42,44,47,1) 36%, rgba(53,53,61,1) 68%, rgba(204,202,202,1) 84%);
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: white;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
   }
+} 
   .croix{
     margin: 2px;
 }
