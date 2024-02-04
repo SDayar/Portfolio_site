@@ -57,7 +57,7 @@ article .barrelat{
     justify-content:space-around;
     background-color:white;
     animation: barrelat 1s linear;
-    width:60%;
+    width:80%;
 
   }
   article .barrelat li {
@@ -66,8 +66,7 @@ article .barrelat{
   article .barrelat li a{
     text-decoration:none;
     color:black;
-    font-family:sans-serif;
-    font-size:16px;
+    font-size:1em;
     border-bottom:2px solid black;
   }
 
@@ -145,7 +144,7 @@ nav .menu_deroulant li::after{
      margin: 0 auto;
      width:0%;
      transition: width 1s ease-in-out;
-     background-color:white;
+     background-color:linear-gradient(90deg, rgba(23,23,23,1) 0%, rgba(42,44,47,1) 36%, rgba(83,83,92,1) 52%, rgba(204,202,202,1) 84%);
 }
 nav .menu_deroulant li:hover::after{
        width:100%;
@@ -198,8 +197,7 @@ nav .menu_deroulant li:hover::after{
    }
   .menu_deroulant li .sous_barre li a{
     text-decoration:none;
-    font-family:sans-serif;
-    font-size:15px;  
+    font-size:1em;  
     color:black;
    }
    .sous_barre li:before{
