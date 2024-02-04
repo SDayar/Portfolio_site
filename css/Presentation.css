@@ -302,7 +302,7 @@ textarea{
      
      header{
        
-         height:250px;
+         height:auto;
          } 
 
          
@@ -324,7 +324,7 @@ textarea{
     text-decoration:none;
     color:darkblue;
     font-family:fantasy;
-    font-size:22px;
+    font-size:1em;
     
 }
 .scroll{
@@ -424,7 +424,7 @@ textarea{
      }
 header{
 background-image:none;
-height:200px;
+height:auto;
 } 
 header section{
     display:flex !important;
@@ -440,7 +440,7 @@ margin-top:3px;
  nav .menu_deroulant li a{
 text-decoration:none;
 color:darkblue;
- font-size:22px;
+ font-size:1em;
     
 }
 .scroll{
