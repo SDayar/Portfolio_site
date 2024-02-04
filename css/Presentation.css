@@ -243,7 +243,7 @@ linear-gradient(90deg, rgba(129,129,129,1) 0%, rgba(42,44,47,1) 36%, rgba(53,53,
     height:30%;
     object-fit:cover;
     float:right;
-     animation:presentation 30s ease;
+     animation:presentation 1s ease;
     -webkit-animation-timeline:view();
     
 }
@@ -284,7 +284,7 @@ to{
  footer{
      width:100%;
      background-color:black;
-     position:absolute;
+     position:relative;
      bottom: 0px;
      font-size:1em;
      display:flex;
@@ -372,7 +372,7 @@ margin-top: 0px;
 .presentation2 article:last-child{
     background-color:white;
     text-align:justify;
-    font-size:16px;
+    font-size:1em;
     width:100%;
     box-shadow:3px 3px 2px gray;
     border: 5px solid white;
@@ -387,7 +387,7 @@ margin-top: 0px;
      width:100%;
      background-color:black;
      text-align:center;
-     position:fixed;
+     position:relative;
      bottom:0px;
      display:flex;
     flex-direction: column-reverse;
@@ -489,7 +489,7 @@ color:darkblue;
  footer{
     width:100%
     background-color:black;
-    position:fixed;
+    position:relative;
     bottom:0px;
     display:flex;
     flex-direction:column-reverse;
