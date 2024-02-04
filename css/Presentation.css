@@ -231,51 +231,29 @@ linear-gradient(90deg, rgba(23,23,23,1) 0%, rgba(42,44,47,1) 36%, rgba(83,83,92,
 }
 ////////////////////////////Conteneur de la boite moi////////////////////////
 .presentation{
-    float:right;
     width:200px;
     --prsntion_dimension:200;
     height:200px;
+    animation:presentation 0.5s linear;
+    animation-timeline:view();
 }
-.presentation2{
-    display:flex;
-    flex-direction:row;
-    width:50%;
-    height:30%;
-    object-fit:cover;
-    float:right;
-     animation:presentation 1s ease;
-    -webkit-animation-timeline:view();
-    
-}
-.presentation2 article:first-child{
-   position:relative;
-    left:3px;
-    z-index:1;
-   
-}
-.presentation2 article img{
-    width:200px;
-    height:200px;
-    object-fit:cover;
-}
-.presentation2 article:last-child{
-    position:relative;
+.presentation article{
     color:#fff;
     background-color:transparent;
     object-fit:cover;
-    z-index:0;
     color:black;
+    border: 5px solid white;
+    box-shadow:3px 3px 2px gray;
+    text-align:justify;
     }
 
 /*animation de la boite Qui suis-je ?*/
 @keyframes presentation{
 from{
     opacity:0;
-    transform:translateY(3px);
     }
 to{
     opacity:1;
-    transform:translateY(0);
     }
 }
 
@@ -368,8 +346,10 @@ textarea{
 /*conteneur presentation*/
 .presentation{
 margin-top: 0px;
+    animation:presentation 0.5s linear;
+    animation-timeline:view();
 } 
-.presentation2 article:last-child{
+.presentation article{
     background-color:white;
     text-align:justify;
     font-size:1em;
@@ -379,6 +359,14 @@ margin-top: 0px;
     border-radius:6px;
     margin-left:0px;
     margin-top:2px;
+}
+     @keyframes presentation{
+from{
+    opacity:0;
+    }
+to{
+    opacity:1;
+    }
 }
 /*Fin*/
 
@@ -461,9 +449,7 @@ color:darkblue;
 .scroll{
     display:none;
 }
-.presentation{
-    margin-top: 0px;
-}
+
 .en_tete{
     display:block;
 }
@@ -471,9 +457,13 @@ color:darkblue;
          display:block;
      }
 /*//////////////////////FIn du menu déroulant////////////*/
+.presentation{
+    margin-top: 0px;
+    animation:presentation 0.5s linear;
+    animation-timeline:view();
+}
 
-
-.presentation2 article:last-child{
+.presentation article{
     background-color:white;
     margin-top:2px;
     width:100%;
@@ -481,7 +471,15 @@ color:darkblue;
     border: 5px solid white;
     border-radius:6px;
    text-align:justify;
-  animation:moi 1s ease;
+  
+}
+    @keyframes presentation{
+from{
+    opacity:0;
+    }
+to{
+    opacity:1;
+    }
 }
 /*Fin*/
 
