@@ -100,8 +100,9 @@ document.querySelector("#valid_comm").addEventListener("click", function(){
     }
     else{
         let confirmation = confirm("Vous serez dirigez vers votre boite mail !");
-        if(confirmation == true){
+        if(confirmation){
         window.location.href="mailto:sdayar318@gmail.com?subject=Commentaire&body="+comm+"";
+        alert("En cas d'échec, veuillez vous assurez que votre boite Gmail est bien active !");
         }
         else{
             alert("Commentaire non envoyé !");
