@@ -35,6 +35,7 @@ header{
   width:100%;
 }
 header section{
+    background-color:white;
     display:none;
     flex-direction:row;
     justify-content:space-between;
