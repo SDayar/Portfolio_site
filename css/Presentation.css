@@ -35,13 +35,12 @@ header{
   width:100%;
 }
 header section{
-    background-color:white;
     display:none;
     flex-direction:row;
     justify-content:space-between;
     position:fixed;
-    width:100%;
-    top:0px;
+    width:90%;
+    top:1px;
     z-index:10;
   }
   header section .cont_menu_lat{
@@ -106,8 +105,6 @@ linear-gradient(90deg, rgba(23,23,23,1) 0%, rgba(42,44,47,1) 36%, rgba(83,83,92,
     background-position: 200% center;
   }
 } 
-    
-  }
 .croix:hover{
     cursor: pointer;
 }
