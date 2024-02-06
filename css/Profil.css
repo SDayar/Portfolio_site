@@ -7,6 +7,9 @@
 body{
     margin:0px;
     padding:0px;
+    font-family:system-ui;
+    font-size:2am;
+    
 }
 html{
     scroll-behavior:smooth;
@@ -507,7 +510,6 @@ display:block;
   .premieresec{
      width: 100%;
      border:1px solid transparent;
-     box-shadow:5px 0px 3px gray;
      display:flex;
      flex-direction:column;
      justify-content:space-between;
@@ -531,11 +533,6 @@ display:block;
      
   }
  
-   /*h2,h3*/
- h2::first-letter{
-     color:black;
-     font-size:30px;
- }
  /*Suite de la partie compétence technique*/
 .comp_tec{
      width: 100%;
@@ -569,7 +566,6 @@ display:block;
      border:1px solid transparent;
      border-radius:4px;
      width:100%;
-     box-shadow:5px 0px 3px gray;
      box-sizing:border-box;
  }
  .competence_ling .gr_liste_ln li{
@@ -655,12 +651,11 @@ display:block;
      margin-top:20px;
      background-color:black;
      text-align: center;
-    
-   
-     margin-bottom: 0px;
+      margin-bottom: 0px;
      display:flex;
     flex-direction: column-reverse;
     justify-content:space-around;
+     font-size:1em;
  }
 
 footer section h3{
@@ -778,9 +773,7 @@ display:block;
   /*première section*/
   .premieresec{
      width: 100%;
-     
      border:1px solid transparent;
-     box-shadow:5px 0px 3px gray;
      display:flex;
      flex-direction:column;
      justify-content:space-between;
@@ -804,11 +797,6 @@ display:block;
      
   }
  
-   /*h2,h3*/
- h2::first-letter{
-     color:black;
-     font-size:2em;
- }
  /*Suite de la partie compétence technique*/
 .comp_tec{
      width: 100%;
@@ -842,7 +830,6 @@ display:block;
      border:1px solid transparent;
      border-radius:4px;
      width:100%;
-     box-shadow:5px 0px 3px gray;
      box-sizing:border-box;
  }
  .competence_ling .gr_liste_ln li{
@@ -865,7 +852,7 @@ display:block;
     justify-content:center; 
  }
  li .liste_langue li{
-     z-index:-1;
+    z-index:-1;
     background-color:white;
     margin-right:100px;
     border:1px solid black;
@@ -928,12 +915,11 @@ display:block;
      margin-top:20px;
      background-color:black;
      text-align: center;
-    
-    
-     margin-bottom: 0px;
+      margin-bottom: 0px;
      display:flex;
     flex-direction: column-reverse;
     justify-content:space-around;
+     font-size:1em;
  }
 
 footer section h3{
