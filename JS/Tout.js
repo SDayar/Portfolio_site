@@ -92,6 +92,18 @@ document.querySelector(".btn_menu_lat").style.display="block";
          
 
     }, false);
+//Disparition du nom //
+function disparition_nom(){
+ let nom = window.document.querySelector(".nom");
+ nom.style.visibility="hidden";
+ 
+}
+//Apparition du nom//
+function apparition_nom(){
+ let nom = window.document.querySelector(".nom");
+ nom.style.visibility="visible";
+ 
+}
 //Envoyer un commentaire//
 document.querySelector("#valid_comm").addEventListener("click", function(){
     const comm = window.document.querySelector("#commentaire").value;
