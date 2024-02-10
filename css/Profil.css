@@ -122,7 +122,7 @@ nav .menu_deroulant li:hover::after{
  /*Fin de l'animation*/
  /*Barre de navigation au scroll*/
 .scroll{
-    background:linear-gradient(90deg, rgba(23,23,23,1) 0%, rgba(22,72,148,1) 36%, rgba(129,129,157,1) 52%, rgba(204,202,202,1) 84%);
+    background:linear-gradient(90deg, rgba(210,210,210,1) 0%, rgba(167,188,220,1) 36%, rgba(128,128,141,1) 52%, rgba(204,202,202,1) 84%);
     width:100%;
     top:0px;
     position:fixed;
@@ -429,8 +429,7 @@ header section{
     justify-content: space-between;
     
 }
-
-  /*première section*/
+/*première section*/
   .premieresec{
      width: 100%;
      border:1px solid transparent;
@@ -449,14 +448,10 @@ header section{
  .competence_tec_txt p{
     text-align: normal;
  }
- 
  /*articles représentants les langages informatques*/
  .competence_tec{
      display:none;
-
-     
-  }
- 
+}
  /*Suite de la partie compétence technique*/
 .comp_tec{
      width: 100%;
@@ -464,12 +459,9 @@ header section{
      flex-direction:column;
      justify-content:space-between;
  }
-   
- 
- .comp_tec aside{
+.comp_tec aside{
     width:100%;
-    
- }
+}
  .comp_tec aside h1{
     color: black;
  }
@@ -480,8 +472,7 @@ header section{
  .comp_tec aside article img:hover{
      width:25%;
      cursor:zoom-out;
-     
- }
+     }
   /*Compétences linguistiques*/
   
  .competence_ling{
@@ -495,16 +486,14 @@ header section{
  .competence_ling .gr_liste_ln li{
      font-size:1em;
      margin-top:10px;
-    
- }
+}
  .competence_ling .gr_liste_ln{
      list-style-type: none;
      display:flex;
      flex-direction:column;
      justify-content:space-evenly;
      width:60%;
-    
- }
+    }
  li .liste_langue{
     list-style-type:none;
     display:flex;
@@ -523,7 +512,7 @@ header section{
  #niveau_fr{
     z-index:5;
     width:90%;
-    background-color:black;
+    background:linear-gradient(90deg, rgba(23,23,23,1) 0%, rgba(22,72,148,1) 36%, rgba(129,129,157,1) 52%, rgba(204,202,202,1) 84%);;
     float:left;
  }
  #niveau_fr:after{
@@ -534,7 +523,7 @@ header section{
  #niveau_fr_e{
     z-index:5;
     width:89%;
-    background-color:black;
+    background:linear-gradient(90deg, rgba(23,23,23,1) 0%, rgba(22,72,148,1) 36%, rgba(129,129,157,1) 52%, rgba(204,202,202,1) 84%);;
     float:left;
  }
  #niveau_fr_e:after{
@@ -545,7 +534,7 @@ header section{
  #niveau_an{
     z-index:5;
     width:65%;
-    background-color:black;
+    background-color:linear-gradient(90deg, rgba(23,23,23,1) 0%, rgba(22,72,148,1) 36%, rgba(129,129,157,1) 52%, rgba(204,202,202,1) 84%);;
     float:left;
  }
  #niveau_an:after{
@@ -556,7 +545,7 @@ header section{
  #niveau_an_e{
     z-index:5;
     width:70%;
-    background-color:black;
+    background:linear-gradient(90deg, rgba(23,23,23,1) 0%, rgba(22,72,148,1) 36%, rgba(129,129,157,1) 52%, rgba(204,202,202,1) 84%);;
     float:left;
  }
  #niveau_an_e:after{
