@@ -234,10 +234,7 @@ nav .menu_deroulant li:hover::after{
  .comp_tec aside article img:hover{
      width:25%;
      cursor:zoom-out;
-     
- }
- 
- 
+     }
  /*Compétences linguistiques*/
  .competence_ling{
      margin-top:130px;
@@ -249,7 +246,7 @@ nav .menu_deroulant li:hover::after{
      box-sizing:border-box;
  }
  .competence_ling .gr_liste_ln li{
-     font-size:18px;
+     font-size:1em;
      margin-top:10px;
     }
  .competence_ling .gr_liste_ln{
@@ -277,7 +274,7 @@ nav .menu_deroulant li:hover::after{
  #niveau_fr{
     z-index:5;
     width:0;
-    background-color:black;
+    background:linear-gradient(90deg, rgba(23,23,23,1) 0%, rgba(22,72,148,1) 36%, rgba(129,129,157,1) 52%, rgba(204,202,202,1) 84%);
     float:left;
     transition: width 1s ease;
      object-fit:contain !important;
@@ -290,7 +287,7 @@ nav .menu_deroulant li:hover::after{
  #niveau_fr_e{
     z-index:5;
     width:0;
-    background-color:black;
+    background:linear-gradient(90deg, rgba(23,23,23,1) 0%, rgba(22,72,148,1) 36%, rgba(129,129,157,1) 52%, rgba(204,202,202,1) 84%);
     float:left;
     transition: width 1s ease;
       object-fit:contain !important
@@ -303,7 +300,7 @@ nav .menu_deroulant li:hover::after{
  #niveau_an{
     z-index:5;
     width:0;
-    background-color:black;
+    background:linear-gradient(90deg, rgba(23,23,23,1) 0%, rgba(22,72,148,1) 36%, rgba(129,129,157,1) 52%, rgba(204,202,202,1) 84%);
     float:left;
     transition: width 1s ease;
     object-fit:contain !important
@@ -316,7 +313,7 @@ nav .menu_deroulant li:hover::after{
  #niveau_an_e{
     z-index:5;
     width:0;
-    background-color:black;
+    background:linear-gradient(90deg, rgba(23,23,23,1) 0%, rgba(22,72,148,1) 36%, rgba(129,129,157,1) 52%, rgba(204,202,202,1) 84%);
     float:left;
     transition: width 1s ease;
     object-fit:contain !important
@@ -400,9 +397,7 @@ textarea{
      
      header{
          background-image:none;
-        
-
-         } 
+    } 
      .en_tete{
     display:block;
 }
@@ -512,7 +507,7 @@ header section{
  #niveau_fr{
     z-index:5;
     width:90%;
-    background:linear-gradient(90deg, rgba(23,23,23,1) 0%, rgba(22,72,148,1) 36%, rgba(129,129,157,1) 52%, rgba(204,202,202,1) 84%);;
+    background:linear-gradient(90deg, rgba(23,23,23,1) 0%, rgba(22,72,148,1) 36%, rgba(129,129,157,1) 52%, rgba(204,202,202,1) 84%);
     float:left;
  }
  #niveau_fr:after{
@@ -776,7 +771,7 @@ display:block;
  #niveau_fr{
     z-index:5;
     width:90%;
-    background-color:black;
+    background-color:linear-gradient(90deg, rgba(23,23,23,1) 0%, rgba(22,72,148,1) 36%, rgba(129,129,157,1) 52%, rgba(204,202,202,1) 84%);
     float:left;
  }
  #niveau_fr:after{
@@ -787,7 +782,7 @@ display:block;
  #niveau_fr_e{
     z-index:5;
     width:89%;
-    background-color:black;
+    background:linear-gradient(90deg, rgba(23,23,23,1) 0%, rgba(22,72,148,1) 36%, rgba(129,129,157,1) 52%, rgba(204,202,202,1) 84%);
     float:left;
  }
  #niveau_fr_e:after{
@@ -798,7 +793,7 @@ display:block;
  #niveau_an{
     z-index:5;
     width:65%;
-    background-color:black;
+    background:linear-gradient(90deg, rgba(23,23,23,1) 0%, rgba(22,72,148,1) 36%, rgba(129,129,157,1) 52%, rgba(204,202,202,1) 84%);
     float:left;
  }
  #niveau_an:after{
@@ -809,7 +804,7 @@ display:block;
  #niveau_an_e{
     z-index:5;
     width:70%;
-    background-color:black;
+    background:linear-gradient(90deg, rgba(23,23,23,1) 0%, rgba(22,72,148,1) 36%, rgba(129,129,157,1) 52%, rgba(204,202,202,1) 84%);
     float:left;
  }
  #niveau_an_e:after{
@@ -824,7 +819,7 @@ display:block;
  }
 /*Pied de la page*/
  footer{
-     width:100%;
+     width:99%;
      margin-top:20px;
      background-color:black;
      text-align: center;
@@ -860,7 +855,7 @@ input[type=submit]:hover{
 }
 textarea{
        backround-color:white;
-       width:100%;
+       width:99%;
        height:100px;
  }
 }
