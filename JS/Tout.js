@@ -60,12 +60,6 @@ if(y>1162 && y<=2600){
     larg_niveau_an_e.style.width="70%";
 
 }
-else{
-    larg_niveau_fr.style.width="0";
-    larg_niveau_fr_e.style.width="0";
-    larg_niveau_an.style.width="0";
-    larg_niveau_an_e.style.width="0";
-}
 }
 );
                                         
