@@ -5,7 +5,7 @@
     Description : Page css qui lié à Profil.html
 */
 
-@import url('https://fonts.cdnfonts.com/css/public-pixel');
+/*@import url('https://fonts.cdnfonts.com/css/public-pixel');*/
 body{
     margin:0px;
     padding:0px;
@@ -174,7 +174,6 @@ nav .menu_deroulant li:hover::after{
      flex-direction:column;
      justify-content:center;
      border-left:2px solid gray;
-     font-family:'Public Pixel', system ui;
   }
   /*première section*/
   .premieresec{
