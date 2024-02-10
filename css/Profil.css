@@ -178,25 +178,6 @@ nav .menu_deroulant li:hover::after{
      justify-content:center;
      border-left:2px solid gray;
   }
-  #apropos{
-    font-size: 1em
-    color: black;
-  }
-  .photo{
-      margin-top:44px;
-      width:70%;
-     
-      }
-  .photo img{
-      float:left;
-      height:220px;
-      border-radius:5px;
-    }
-  .texteprofil{
-      width:33%;
-      border-left:2px solid gray;
-      height:220px;
-  }
   /*première section*/
   .premieresec{
      width:90%;
@@ -288,11 +269,11 @@ nav .menu_deroulant li:hover::after{
     display:flex;
     flex-direction:column;
     justify-content:space-between; 
+     padding:0;
  }
  li .liste_langue li{
-     z-index:-1;
+    z-index:-1;
     background-color:white;
-    
     border:1px solid black;
     border-radius:5px;
     width:100%;
@@ -304,6 +285,7 @@ nav .menu_deroulant li:hover::after{
     background-color:black;
     float:left;
     transition: width 1s ease;
+     object-fit:contain !important;
  }
  #niveau_fr:after{
      content:'Oral : 90%';
@@ -316,6 +298,7 @@ nav .menu_deroulant li:hover::after{
     background-color:black;
     float:left;
     transition: width 1s ease;
+      object-fit:contain !important
  }
  #niveau_fr_e:after{
      content:'Ecrit : 89%';
@@ -328,6 +311,7 @@ nav .menu_deroulant li:hover::after{
     background-color:black;
     float:left;
     transition: width 1s ease;
+    object-fit:contain !important
  }
  #niveau_an:after{
      content:'Oral : 65%';
@@ -340,6 +324,7 @@ nav .menu_deroulant li:hover::after{
     background-color:black;
     float:left;
     transition: width 1s ease;
+    object-fit:contain !important
  }
  #niveau_an_e:after{
      content:'Ecrit : 70%';
@@ -449,36 +434,7 @@ header section{
     justify-content: space-between;
     
 }
-#apropos{
-    font-family: cursive;
-    font-size: 1em;
-    color: black;
-  }
 
-
-  /*Section de photo de profil*/
-     .sommaire{
-display:block;
-}
-  .photo{
-     display: flex;
-     flex-direction: row;
-     justify-content: center;
-      width:100%;
-
-
-     }
-  .photo img{
-     
-     display: none;
-      border-radius:5px;
-      margin-bottom: 4px;
-
-    }
-  .texteprofil{
-      width:100%;
-     }
-  
   /*première section*/
   .premieresec{
      width: 100%;
