@@ -39,7 +39,7 @@ header section{
     justify-content:space-around;
     background-color: white;
     animation: barrelat 1s ease;
-    width:80%;
+    width:90%;
     margin-top:-9px;
 
   }
@@ -50,7 +50,7 @@ header section{
     text-decoration:none;
     color:black;
     font-size:1em;
-    border-bottom:2px solid black;
+  }
   }
 
   /*Animation de la barre latérale*/
@@ -64,9 +64,7 @@ header section{
         transform: translatX(0px);
     }
 }
-
- 
-  .btn_menu_lat:hover{
+.btn_menu_lat:hover{
     cursor: pointer;
   }
   .nom{
@@ -89,9 +87,6 @@ linear-gradient(90deg, rgba(129,129,129,1) 0%, rgba(42,44,47,1) 36%, rgba(53,53,
     background-position: 200% center;
   }
 } 
-  .croix{
-    margin: 2px;
-}
 .croix:hover{
     cursor: pointer;
 }
@@ -127,7 +122,7 @@ nav .menu_deroulant li:hover::after{
  /*Fin de l'animation*/
  /*Barre de navigation au scroll*/
 .scroll{
-    background-color:rgba(121, 117, 119, 0.8);
+    background:linear-gradient(90deg, rgba(23,23,23,1) 0%, rgba(22,72,148,1) 36%, rgba(129,129,157,1) 52%, rgba(204,202,202,1) 84%);
     width:100%;
     top:0px;
     position:fixed;
