@@ -105,7 +105,7 @@ linear-gradient(90deg, rgba(23,23,23,1) 0%, rgba(42,44,47,1) 36%, rgba(83,83,92,
     background-position: 200% center;
   }
 } 
-.croix,.btn_menu_lat{
+.croix,.btn_menu_lat, .nom{
     position:fixed;
 }
 .croix{
@@ -116,6 +116,10 @@ linear-gradient(90deg, rgba(23,23,23,1) 0%, rgba(42,44,47,1) 36%, rgba(83,83,92,
     left:2%;/*Abscisse*/
     top:2%;/*Ordonné*/
     }
+.nom{
+    right:2%;/*Abscisse*/
+    top:8%;/*Ordonné*/
+}
 /*/////////////////////////////////////Fin de la barre lateralle//////////////////////////////////////////*/
 
 /*////////////////////////////Menu déroulant//////////////////////////////*/
