@@ -209,9 +209,6 @@ nav .menu_deroulant li:hover::after{
     font-size:1em;  
     color:black;
    }
-   .sous_barre li:before{
-       content: '- ';
-   }
 ///////////////////////////////////Titre Bienvenue///////////////////////////////////////////////////////
 .titre_bvn{
     background-color:white;
