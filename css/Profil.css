@@ -191,7 +191,6 @@ nav .menu_deroulant li:hover::after{
   /*première section*/
   .premieresec{
      width:90%;
-     
      border:1px solid transparent;
      box-shadow:5px 0px 3px gray;
      box-sizing:border-box;
@@ -449,15 +448,8 @@ header section{
  }
   
  /*Section qui présente le texte des compétences informatiques*/
- .competence_tec_txt{
-     background-color:transparent;
-     width:90%;
-     border:1px solid transparent;
-     border-radius:4px;
- }
- .competence_tec_txt p{
-    text-align: normal;
- }
+ 
+ 
  /*articles représentants les langages informatques*/
  .competence_tec{
      display:none;
@@ -610,7 +602,7 @@ textarea{
        height:100px;
  }
 }
-/*Partie responsive pour un smartphone de taille standard un peu plus*/ 
+/*Partie responsive pour un smartphone de taille standard et un peu plus*/ 
  @media only screen and (max-device-width: 780px) and (min-device-width: 480px){
      body{
          display:flex;
@@ -659,9 +651,7 @@ header section{
 
 
   /*Section de photo de profil*/
-     .sommaire{
-display:block;
-}
+
   .photoprofil{
     width:100%;
     border:1px solid transparent;
