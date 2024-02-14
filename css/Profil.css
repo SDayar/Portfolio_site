@@ -447,29 +447,26 @@ header section{
  
  
  /*articles représentants les langages informatques*/
- .competence_tec{
+ .img_langages{
      display:flex;
      flex-direction:row;
      
 }
  /*Suite de la partie compétence technique*/
-.comp_tec{
-     width: 100%;
-     display:flex;
-     flex-direction:column;
-     justify-content:space-between;
+.txt_competences{
+     width:99%;
  }
-.comp_tec aside{
-    width:100%;
+.txt_competences aside{
+    width:99%;
 }
- .comp_tec aside h1{
+ .txt_competences aside h1{
     color: black;
  }
- .comp_tec aside article img{
+ .txt_competences aside article img{
      width:30%;
      transition:width 1s ease-in-out;
  }
- .comp_tec aside article img:hover{
+ .txt_competences aside article img:hover{
      width:25%;
      cursor:zoom-out;
      }
@@ -512,7 +509,7 @@ header section{
  #niveau_fr{
     z-index:5;
     width:90%;
-    background:linear-gradient(90deg, rgba(23,23,23,1) 0%, rgba(22,72,148,1) 36%, rgba(129,129,157,1) 52%, rgba(204,202,202,1) 84%);
+    background:linear-gradient(90deg, rgba(210,210,210,1) 0%, rgba(127,140,160,1) 17%, rgba(128,128,141,1) 47%, rgba(130,130,143,1) 57%, rgba(204,202,202,1) 84%);
     float:left;
  }
  #niveau_fr:after{
@@ -523,7 +520,7 @@ header section{
  #niveau_fr_e{
     z-index:5;
     width:89%;
-    background:linear-gradient(90deg, rgba(23,23,23,1) 0%, rgba(22,72,148,1) 36%, rgba(129,129,157,1) 52%, rgba(204,202,202,1) 84%);;
+    linear-gradient(90deg, rgba(210,210,210,1) 0%, rgba(127,140,160,1) 17%, rgba(128,128,141,1) 47%, rgba(130,130,143,1) 57%, rgba(204,202,202,1) 84%);
     float:left;
  }
  #niveau_fr_e:after{
@@ -534,7 +531,7 @@ header section{
  #niveau_an{
     z-index:5;
     width:65%;
-    background-color:linear-gradient(90deg, rgba(23,23,23,1) 0%, rgba(22,72,148,1) 36%, rgba(129,129,157,1) 52%, rgba(204,202,202,1) 84%);;
+    background-color:linear-gradient(90deg, rgba(210,210,210,1) 0%, rgba(127,140,160,1) 17%, rgba(128,128,141,1) 47%, rgba(130,130,143,1) 57%, rgba(204,202,202,1) 84%);
     float:left;
  }
  #niveau_an:after{
@@ -545,7 +542,7 @@ header section{
  #niveau_an_e{
     z-index:5;
     width:70%;
-    background:linear-gradient(90deg, rgba(23,23,23,1) 0%, rgba(22,72,148,1) 36%, rgba(129,129,157,1) 52%, rgba(204,202,202,1) 84%);;
+    background:linear-gradient(90deg, rgba(210,210,210,1) 0%, rgba(127,140,160,1) 17%, rgba(128,128,141,1) 47%, rgba(130,130,143,1) 57%, rgba(204,202,202,1) 84%);;
     float:left;
  }
  #niveau_an_e:after{
@@ -774,7 +771,7 @@ header section{
  #niveau_fr{
     z-index:5;
     width:90%;
-    background-color:linear-gradient(90deg, rgba(23,23,23,1) 0%, rgba(22,72,148,1) 36%, rgba(129,129,157,1) 52%, rgba(204,202,202,1) 84%);
+    background-color:linear-gradient(90deg, rgba(210,210,210,1) 0%, rgba(127,140,160,1) 17%, rgba(128,128,141,1) 47%, rgba(130,130,143,1) 57%, rgba(204,202,202,1) 84%);
     float:left;
  }
  #niveau_fr:after{
@@ -785,7 +782,7 @@ header section{
  #niveau_fr_e{
     z-index:5;
     width:89%;
-    background:linear-gradient(90deg, rgba(23,23,23,1) 0%, rgba(22,72,148,1) 36%, rgba(129,129,157,1) 52%, rgba(204,202,202,1) 84%);
+    background:linear-gradient(90deg, rgba(129,129,129,1) 0%, rgba(42,44,47,1) 36%, rgba(53,53,61,1) 68%, rgba(204,202,202,1) 84%);
     float:left;
  }
  #niveau_fr_e:after{
@@ -796,7 +793,7 @@ header section{
  #niveau_an{
     z-index:5;
     width:65%;
-    background:linear-gradient(90deg, rgba(23,23,23,1) 0%, rgba(22,72,148,1) 36%, rgba(129,129,157,1) 52%, rgba(204,202,202,1) 84%);
+    background:linear-gradient(90deg, rgba(129,129,129,1) 0%, rgba(42,44,47,1) 36%, rgba(53,53,61,1) 68%, rgba(204,202,202,1) 84%);
     float:left;
  }
  #niveau_an:after{
@@ -807,7 +804,7 @@ header section{
  #niveau_an_e{
     z-index:5;
     width:70%;
-    background:linear-gradient(90deg, rgba(23,23,23,1) 0%, rgba(22,72,148,1) 36%, rgba(129,129,157,1) 52%, rgba(204,202,202,1) 84%);
+    background:linear-gradient(90deg, rgba(129,129,129,1) 0%, rgba(42,44,47,1) 36%, rgba(53,53,61,1) 68%, rgba(204,202,202,1) 84%);
     float:left;
  }
  #niveau_an_e:after{
