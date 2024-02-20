@@ -190,7 +190,6 @@ nav .menu_deroulant li:hover::after{
  .boite{
      margin-top:150px;
      width:90%;
-     
      border:1px solid transparent;
      box-shadow:5px 0px 3px gray;
      box-sizing:border-box;
@@ -203,16 +202,18 @@ nav .menu_deroulant li:hover::after{
      width:30%;
  }
  .actu article{
-     border:2px dotted darkred;
+     border:2px solid red;
      width:100%;
  }
+object{
+    object-fit:cover;
+}
   /*Pied de la page*/
  footer{
      width:100%;
      margin-top:150px;
      background-color:black;
      margin-bottom:0px;
-   
     display:flex;
     flex-direction:row;
     justify-content:space-around;
@@ -223,7 +224,6 @@ footer section{
 footer section h3{
      
       color:white;
-      font-family:sans-serif;
  }
  .liens{
      width:100%;
@@ -236,8 +236,7 @@ footer section h3{
      border:1px solid white;
      border-radius:5px;
      color:black;
-     font-family:sans-serif;
-     font-size:17px;
+     font-size:1px;
      width:60%;
      transition:width 1s ease-in-out;
 }
@@ -266,14 +265,11 @@ textarea{
     display:none;
     flex-direction:column;
     justify-content:space-evenly;
-    margin-top:3px;
     background-color: red;
     }
     nav .menu_deroulant li a{
     text-decoration:none;
-    color:darkblue;
-    font-family:fantasy;
-    font-size:22px;
+    font-size:1px;
     
 }
 .scroll{
@@ -306,9 +302,7 @@ footer section{
      height:300px;
 }
 footer section h3{
-     
-      color:white;
-      font-family:sans-serif;
+     color:white;
  }
  .liens{
      width:100%;
@@ -322,7 +316,7 @@ footer section h3{
      border-radius:5px;
      color:black;
      font-family:sans-serif;
-     font-size:17px;
+     font-size:1px;
      width:80%;
      transition:width 1s ease-in-out;
 }
@@ -372,9 +366,6 @@ header section{
     justify-content: space-between;
     
 }
-object{
-    display: none;
-}
 .actu{
     width: 90%;
 }
@@ -408,8 +399,7 @@ footer section h3{
      border:1px solid white;
      border-radius:5px;
      color:black;
-     font-family:sans-serif;
-     font-size:17px;
+     font-size:1px;
      width:80%;
      transition:width 1s ease-in-out;
 }
@@ -430,11 +420,6 @@ textarea{
          align-content: center;
          
      }
-     
-     header{
-         background-image:none;
-        
-         } 
      nav .menu_deroulant{
     list-style-type: none;
     display:none;
@@ -445,9 +430,7 @@ textarea{
     }
     nav .menu_deroulant li a{
     text-decoration:none;
-    color:darkblue;
-    font-family:fantasy;
-    font-size:22px;
+    font-size:1px;
     
 }
 .scroll{
@@ -458,9 +441,6 @@ header section{
     flex-direction: row;
     justify-content: space-between;
     
-}
-object{
-    display: none;
 }
 .actu{
     width: 90%;
