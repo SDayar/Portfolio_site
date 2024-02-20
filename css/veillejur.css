@@ -8,55 +8,59 @@ description : veille juridique
 body{
     margin:0px;
     padding:0px;
+    font-family:system-ui;
+}
+html{
+    scroll-behavior:smooth;
 }
 header{
-  background-image:url("../fond.png");
-  background-repeat:no-repeat;
-  background-size:cover;
   height:250px;
+  width:100%;
 }
 /*Barre latérale*/
 header section{
     display:none;
     position:fixed;
-    
     width:100%;
-    
     top:0px;
     background-color:white;
   }
   header section .cont_menu_lat{
     display:none;
     position:absolute;
-     z-index: 3;
-     width:100%
+    z-index: 3;
+    width:100%
      
  }
+
  article .barrelat{
-     list-style-type: none;
+    list-style-type: none;
     display:flex;
     flex-direction: column;
     justify-content:space-around;
     background-color: white;
     animation: barrelat 1s ease;
-    width:40%;
+    width:90%;
     margin-top:-9px;
 
   }
   article .barrelat li {
     margin: 15px ;
   }
+/*article .barrelat li:last-child
+{
+    background-color:black;
+    color:white;
+    border:1px solid transparent;
+    border-radius:5px 5px 5px 5px;
+    
+}*/
   article .barrelat li a{
     text-decoration:none;
     color:black;
-    font-family:sans-serif;
-    font-size:16px;
-    border-bottom:2px solid black;
+    font-size:1em;
   }
-.barrelat li a:hover::before{
-    content:" -> ";
-    color:black;
-}
+  }
 
   /*Animation de la barre latérale*/
 @keyframes barrelat{
@@ -69,23 +73,40 @@ header section{
         transform: translatX(0px);
     }
 }
+.btn_menu_lat:hover{
+    cursor: pointer;
+  }
+  .nom{
+    background-image: 
+linear-gradient(90deg, rgba(129,129,129,1) 0%, rgba(42,44,47,1) 36%, rgba(53,53,61,1) 68%, rgba(204,202,202,1) 84%);
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: white;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+}
 
-  .btn_menu_lat:hover{
-    cursor: pointer;
+@keyframes textclip {
+  to {
+    background-position: 200% center;
   }
- .nom{
-      color:black;
-      font-family:sans-serif;
-  }
-  .croix{
-    margin: 2px;
+} 
+.croix,.btn_menu_lat{
+    position:fixed;
 }
-.croix:hover{
-    cursor: pointer;
+.croix{
+   right:3%;/*Abscisse*/
+    top:2%;/*Ordonné*/
 }
-.en_tete{
-    display:none;
-}
+.btn_menu_lat{
+    left:2%;/*Abscisse*/
+    top:2%;/*Ordonné*/
+    }
 /*Fin de la barre latérale*/
 nav .menu_deroulant{
     list-style-type: none;
@@ -96,9 +117,8 @@ nav .menu_deroulant{
 }
 nav .menu_deroulant li a{
     text-decoration:none;
-    color:white;
-    font-family:fantasy;
-    font-size:22px;
+    color:black;
+    font-size:1em;
 }
 /*animation pour surligner les rubriques*/
 nav .menu_deroulant li::after{
@@ -108,7 +128,7 @@ nav .menu_deroulant li::after{
      margin: 0 auto;
      width:0%;
      transition: width 1s ease-in-out;
-     background-color:white;
+     background:linear-gradient(90deg, rgba(23,23,23,1) 0%, rgba(42,44,47,1) 36%, rgba(83,83,92,1) 52%, rgba(204,202,202,1) 84%);
 }
 nav .menu_deroulant li:hover::after{
        width:100%;
@@ -116,7 +136,7 @@ nav .menu_deroulant li:hover::after{
  /*Fin de l'animation*/
  /*Barre de navigation au scroll*/
 .scroll{
-    background-color:rgba(121, 117, 119, 0.8);
+    background:linear-gradient(90deg, rgba(210,210,210,1) 0%, rgba(167,188,220,1) 36%, rgba(128,128,141,1) 52%, rgba(204,202,202,1) 84%);
     width:100%;
     top:0px;
     position:fixed;
@@ -135,7 +155,7 @@ nav .menu_deroulant li:hover::after{
  /*Fin de la barre de navigation au scroll*/
  
  /*Barre de navigation "Veilles"*/
-.sous_barre{
+ .sous_barre{
    list-style-type:none;
    display:none;
    flex-direction: column;
@@ -147,18 +167,12 @@ nav .menu_deroulant li:hover::after{
 .menu_deroulant > li:hover .sous_barre{
         display:flex;
    }
-.menu_deroulant li .sous_barre li a{
+   .menu_deroulant li .sous_barre li a{
     text-decoration:none;
-    font-family:sans-serif;
-    font-size:15px;  
+    font-size:1em;  
     color:black;
    }
-.sous_barre li:before{
-    content: '- ';
-   }
-    /*Premier bloc*/
  .titre{
-    margin-top:90px;
     width:30%;
     height:100px;
  }
