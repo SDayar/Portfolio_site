@@ -77,7 +77,7 @@ header section{
 .btn_menu_lat:hover{
     cursor: pointer;
   }
-  .nom{
+  .nom, #niveau_fr, #niveau_fr_e, #niveau_an, #niveau_e_e{
     background-image: 
 linear-gradient(90deg, rgba(129,129,129,1) 0%, rgba(42,44,47,1) 36%, rgba(53,53,61,1) 68%, rgba(204,202,202,1) 84%);
   background-size: auto auto;
@@ -653,8 +653,8 @@ header section{
  .img_langages{
      display:flex;
      flex-direction:column;
-     
-}
+     justify-content:center;
+     }
  /*Suite de la partie compétence technique*/
 .txt_competences{
      width:99%;
