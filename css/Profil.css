@@ -283,7 +283,7 @@ nav .menu_deroulant li:hover::after{
     z-index:5;
     width:0;
     float:left;
-     object-fit:contain !important;
+    object-fit:contain !important;
  }
  #niveau_fr:after{
      content:'Oral : 90%';
@@ -323,20 +323,6 @@ nav .menu_deroulant li:hover::after{
      content:'Ecrit : 70%';
      color:white;
  }
-#niveau_fr, #niveau_fr_e, #niveau_an, #niveau_e_e{
-   background-image: 
-linear-gradient(90deg, rgba(129,129,129,1) 0%, rgba(42,44,47,1) 36%, rgba(53,53,61,1) 68%, rgba(204,202,202,1) 84%);
-  background-size: auto auto;
-  background-clip: border-box;
-  background-size: 200% auto;
-  color: white;
-  background-clip: text;
-  text-fill-color: transparent;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  animation: textclip 0,1s linear infinite;
-}
- 
  /*barre pour les niveau*/ 
  /*Fin de la deuxième section*/
  /*Section Distinction*/
