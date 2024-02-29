@@ -195,6 +195,7 @@ nav .menu_deroulant li:hover::after{
      box-sizing:border-box;
      display:flex;
      flex-direction:row;
+     justify-content:space-between;
  }
  /*Boite actualité*/
  .actu{
@@ -205,7 +206,7 @@ nav .menu_deroulant li:hover::after{
      border:2px solid red;
      width:100%;
  }
-object{
+img{
     object-fit:cover;
 }
   /*Pied de la page*/
@@ -281,9 +282,11 @@ header section{
     justify-content: space-between;
     
 }
-object{
-    display: none;
-}
+    boite{
+        display:flex;
+        flex-direction:column-reverse;
+        /*grid-template-columns:*/
+    }
 .actu{
     width: 90%;
 }
@@ -315,7 +318,6 @@ footer section h3{
      border:1px solid white;
      border-radius:5px;
      color:black;
-     font-family:sans-serif;
      font-size:1px;
      width:80%;
      transition:width 1s ease-in-out;
@@ -366,6 +368,10 @@ header section{
     justify-content: space-between;
     
 }
+    .boite{
+         display:flex;
+        flex-direction:column-reverse;
+    }
 .actu{
     width: 90%;
 }
