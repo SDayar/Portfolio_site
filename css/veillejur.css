@@ -350,13 +350,10 @@ textarea{
     flex-direction:column;
     justify-content:space-evenly;
     margin-top:3px;
-    background-color: red;
     }
     nav .menu_deroulant li a{
     text-decoration:none;
-    color:darkblue;
-    font-family:fantasy;
-    font-size:22px;
+    font-size: 1px;
     
 }
 .scroll{
@@ -371,6 +368,7 @@ header section{
     .boite{
          display:flex;
         flex-direction:column-reverse;
+        justify-content:space-around;
     }
 .actu{
     width: 90%;
@@ -432,7 +430,6 @@ textarea{
     flex-direction:column;
     justify-content:space-evenly;
     margin-top:3px;
-    background-color: red;
     }
     nav .menu_deroulant li a{
     text-decoration:none;
