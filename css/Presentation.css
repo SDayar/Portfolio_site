@@ -975,6 +975,190 @@ aside {
     border: 1px solid white;
     margin-top:0;
     }
+    /*******************************************************************************************************************/
+    #apropos{
+    font-family: cursive;
+    font-size: 22px;
+    color: black;
+  }
+
+
+  /*Section de photo de profil*/
+     .sommaire{
+display:block;
+}
+  .photoprofil{
+    width:100%;
+    border:1px solid transparent;
+    box-shadow:5px 0px 3px gray;
+    box-sizing:border-box; 
+    display: flex;
+    flex-direction: column-reverse;
+   margin-top: 0px;
+
+      }
+  .photo{
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+      width:100%;
+
+
+     }
+  .photo img{
+     
+      display: none;
+      border-radius:5px;
+      margin-bottom: 4px;
+
+    }
+  .texteprofil{
+      width:100%;
+
+     
+  }
+  
+  /*première section*/
+  .premieresec{
+     width: 100%;
+     
+     border:1px solid transparent;
+     box-shadow:5px 0px 3px gray;
+     display:flex;
+     flex-direction:column;
+     justify-content:space-between;
+ }
+  
+ /*Section qui présente le texte des compétences informatiques*/
+ .competence_tec_txt{
+     background-color:transparent;
+     width:90%;
+     border:1px solid transparent;
+     border-radius:4px;
+ }
+ .competence_tec_txt p{
+    text-align: normal;
+ }
+ 
+ /*articles représentants les langages informatques*/
+ .competence_tec{
+     display:none;
+
+     
+  }
+ 
+   /*h2,h3*/
+ h2::first-letter{
+     color:black;
+     font-size:30px;
+ }
+ /*Suite de la partie compétence technique*/
+.comp_tec{
+     width: 100%;
+     display:flex;
+     flex-direction:column;
+     justify-content:space-between;
+ }
+   
+ 
+ .comp_tec aside{
+    width:100%;
+    
+ }
+ .comp_tec aside h1{
+    color: black;
+ }
+ .comp_tec aside article img{
+     width:30%;
+     transition:width 1s ease-in-out;
+ }
+ .comp_tec aside article img:hover{
+     width:25%;
+     cursor:zoom-out;
+     
+ }
+  /*Compétences linguistiques*/
+  
+ .competence_ling{
+     margin-top: 10px;
+     background-color:transparent;
+     border:1px solid transparent;
+     border-radius:4px;
+     width:100%;
+     box-shadow:5px 0px 3px gray;
+     box-sizing:border-box;
+ }
+ .competence_ling .gr_liste_ln li{
+     font-size:18px;
+     margin-top:10px;
+    
+ }
+ .competence_ling .gr_liste_ln{
+     list-style-type: none;
+     display:flex;
+     flex-direction:column;
+     justify-content:space-evenly;
+     width:60%;
+    
+ }
+ li .liste_langue{
+    list-style-type:none;
+    display:flex;
+    flex-direction:column;
+    justify-content:center; 
+ }
+ li .liste_langue li{
+     z-index:-1;
+    background-color:white;
+    margin-right:100px;
+    border:1px solid black;
+    border-radius:5px;
+    width:100%;
+ }
+ /*Français oral*/
+ #niveau_fr{
+    z-index:5;
+    width:90%;
+    background-color:black;
+    float:left;
+ }
+ #niveau_fr:after{
+     content:'Oral : 90%';
+     color:white;
+ }
+ /*Français écrit*/
+ #niveau_fr_e{
+    z-index:5;
+    width:89%;
+    background-color:black;
+    float:left;
+ }
+ #niveau_fr_e:after{
+     content:'Ecrit : 89%';
+     color:white;
+ }
+  /*Anglais oral*/
+ #niveau_an{
+    z-index:5;
+    width:65%;
+    background-color:black;
+    float:left;
+ }
+ #niveau_an:after{
+     content:'Oral : 65%';
+     color:white;
+ }
+ /*Anglais écrit*/
+ #niveau_an_e{
+    z-index:5;
+    width:70%;
+    background-color:black;
+    float:left;
+ }
+ #niveau_an_e:after{
+     content:'Ecrit : 70%';
+     color:white;
+ }
 /*Pied de la page*/
  footer{
     width:100%;
